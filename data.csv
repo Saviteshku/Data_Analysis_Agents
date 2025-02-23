@@ -1,0 +1,2342 @@
+id,districts,age,gender,adults,occupation,income_range,factors_2___1,BloodDiastolic_Avg
+HIS0101132-1,rajam,49,Female,1,Service/Salaried,"Rs 30,001 - Rs 50,000",unchecked,90
+HIS0104132-2,Rajam,51,M,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0104132-3,Rajam,45,Male,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,
+HIS0104132-4,Rajam,60,Female,0,Unskilled labour,"below Rs 10,000",unchk,70
+HIS0101132-5,Rajam,70,Female,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,90
+HIS0101132-6,Rajam,59,Male,2,skill,"20,001 - Rs 30,000",Unchecked,80
+HIS0101132-7,Rajam,60,fem,1,Agriculture,Did not provide,Unchecked,80
+HIS0101132-8,raj,64,Female,0,Unemployed,"Below Rs 10,000",Unchecked,90
+HIS0104132-9,Rajam,38,Female,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,
+HIS0104132-10,Rajam,fifty,Male,2,agri,"s 20,001 - Rs 30,000",Unchecked,80
+HIS0104132-11,Rajam,38,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",uncheck,80
+HIS0104132-12,Rajam,35,Female,two,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0101132-25,Rajam,48,Female,4,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0104132-26,Rajam,47,F,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,70
+HIS0101132-27,Rajam,62,Female,2,Agriculture,"30,001 - Rs 50,000",Unchecked,63.33333333
+HIS0101132-28,Rajam,65,M,2,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0101132-29,Raj,61,Female,dgfdh,Service/Salaried,"Above Rs 50,000",Unchecked,63.33333333
+HIS0101132-30,Rajam,fify,Male,2,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,70
+HIS0104132-31,Rajam,73,Male,0,Service/Salaried,"Above Rs 50,000",unckech,70
+HIS0104132-32,Rajam,45,Female,4,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,70
+HIS0104132-33,Rajam,50,0,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,66.66666667
+HIS0104132-34,Rajam,48,Male,3,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0105132-35,Rajam,44,Female,2,Unskilled labour,"Below Rs 10,000",Unchecked,90
+HIS0105132-36,Rajam,50,Female,,Unskilled labour,"Rs 20,001 - Rs 30,000",Unchecked,90
+HIS0105132-37,Rajam,70,Male,0,Agriculture,Did not provide,Unchecked,90
+HIS0105132-38,Rajam,,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0105132-39,Rajam,77,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0105132-40,Rajam,45,Female,4,,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0105132-41,Rajam,30,Male,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0105132-42,Rajam,55,Female,1,,"Rs 10,000 - Rs 20,000",Unchecked,
+HIS0105132-43,Rajam,30,1,2,Unskilled labour,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0105132-44,Rajam,55,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0105132-45,Rajam,65,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0105132-46,Rajam,56,Female,3,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,60
+HIS0105132-47,Rajam,80,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,70
+HIS0105132-48,Rajam,45,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,66.66666667
+HIS0105132-49,Rajam,66,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,66.66666667
+HIS0105132-50,Rajam,70,Male,0,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,63.33333333
+HIS0105132-51,Rajam,58,Female,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0105132-52,Rajam,65,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,63.33333333
+HIS0105132-53,Rajam,40,Female,2,Service/Salaried,"Above Rs 50,000",Unchecked,76.66666667
+HIS0105132-54,Rajam,55,Female,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0109132-55,Rajam,65,Male,0,Unemployed,Did not provide,Unchecked,90
+HIS0109132-56,Rajam,56,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0109132-57,Rajam,60,Female,1,Unskilled labour,"Below Rs 10,000",Unchecked,90
+HIS0109132-58,Rajam,30,Female,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0109132-59,Rajam,45,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0109132-60,Rajam,75,Male,0,Agriculture,"Below Rs 10,000",Unchecked,80
+HIS0109132-61,Rajam,64,Female,1,Unskilled labour,"Rs 10,000 - Rs 20,000",check,83.33333333
+HIS0109132-62,Rajam,55,Female,4,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,60
+HIS0109132-63,Rajam,64,Female,2,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,60
+HIS0109132-64,Rajam,45,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,66.66666667
+HIS0109132-65,Rajam,45,Male,3,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0109132-66,Rajam,56,Female,1,Service/Salaried,"Above Rs 50,000",Unchecked,60
+HIS0109132-67,Rajam,60,Female,2,Unskilled labour,"Rs 20,001 - Rs 30,000",Unchecked,66.66666667
+HIS0109132-68,Rajam,67,Female,2,Business/Trade,"Above Rs 50,000",Unchecked,70
+HIS0113132-69,Rajam,40,Male,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0113132-70,Rajam,42,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0113132-71,Rajam,60,Female,1,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,90
+HIS0113132-72,Rajam,62,Female,0,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0113132-73,Rajam,62,Female,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0113132-74,Rajam,30,Female,2,Agriculture,"Below Rs 10,000",Unchecked,70
+HIS0113132-75,Rajam,35,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,83
+HIS0113132-76,Rajam,65,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0113132-77,Rajam,60,Female,2,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,60
+HIS0113132-78,Rajam,65,Male,2,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,63.33333333
+HIS0113132-79,Rajam,70,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,63.33333333
+HIS0113132-80,Rajam,65,Male,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,60
+HIS0113132-81,Rajam,40,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,66.66666667
+HIS0113132-82,Rajam,50,Female,4,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0113132-83,Rajam,56,Female,3,Service/Salaried,"Above Rs 50,000",Unchecked,63.33333333
+HIS0104132-84,Rajam,68,Female,0,Unemployed,Don't know,Unchecked,63.33333333
+HIS0104132-85,Rajam,62,Female,0,Skilled labour,"Below Rs 10,000",Unchecked,73.33333333
+HIS0104132-86,Rajam,36,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0104132-87,Rajam,70,Male,0,Agriculture,Did not provide,Unchecked,90
+HIS0104132-88,Rajam,82,Male,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,90
+HIS0104132-89,Rajam,60,Male,1,Agriculture,"Below Rs 10,000",Unchecked,70
+HIS0104132-90,Rajam,60,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,89.33333333
+HIS0104132-91,Rajam,65,Female,0,Agriculture,Did not provide,Unchecked,90
+HIS0104132-92,Rajam,54,Male,3,Service/Salaried,"Above Rs 50,000",Unchecked,73.33333333
+HIS0104132-93,Rajam,56,Female,5,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,70
+HIS0104132-94,Rajam,60,Male,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,60
+HIS0104132-95,Rajam,40,Female,3,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0104132-96,Rajam,60,Male,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0104132-97,Rajam,40,Female,3,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0104132-98,Rajam,59,Male,4,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,63.33333333
+HIS0104132-99,Rajam,60,Female,2,Service/Salaried,"Above Rs 50,000",Unchecked,63.33333333
+HIS0117132-100,Rajam,43,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0117132-101,Rajam,58,Female,1,Agriculture,Did not provide,Unchecked,90
+HIS0117132-102,Rajam,37,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0117132-103,Rajam,34,Male,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0117132-104,Rajam,31,Female,5,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0117132-105,Rajam,45,Female,4,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,90
+HIS0117132-106,Rajam,47,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0117132-107,Rajam,60,Female,1,Unemployed,Did not provide,Unchecked,86.66666667
+HIS0117132-108,Rajam,34,Female,1,Unskilled labour,"Below Rs 10,000",Unchecked,60
+HIS0117132-109,Rajam,54,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0117132-110,Rajam,65,Female,2,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,60
+HIS0117132-111,Rajam,35,Male,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,63.33333333
+HIS0117132-112,Rajam,70,Female,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,60
+HIS0117132-113,Rajam,45,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0117132-114,Rajam,55,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,60
+HIS0117132-115,Rajam,58,Female,3,Service/Salaried,"Above Rs 50,000",Unchecked,76.66666667
+HIS0117132-116,Rajam,70,Male,0,Unskilled labour,"Rs 20,001 - Rs 30,000",Unchecked,60
+HIS0117132-117,Rajam,58,Female,4,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0117132-118,Rajam,61,Male,2,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,63.33333333
+HIS0117132-119,Rajam,61,Female,0,Unskilled labour,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0101132-120,Rajam,64,Female,0,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0101132-121,Rajam,35,Male,0,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0101132-122,Rajam,57,Male,3,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,60
+HIS0101132-123,Rajam,32,Female,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0101132-124,Rajam,39,Female,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0101132-125,Rajam,57,Male,2,Agriculture,Did not provide,Unchecked,90
+HIS0101132-126,Rajam,69,Female,0,Agriculture,Did not provide,Unchecked,90
+HIS0101132-127,Rajam,60,Female,1,Unemployed,"Below Rs 10,000",Unchecked,80
+HIS0101132-128,Rajam,65,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,60
+HIS0101132-129,Rajam,62,Female,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,60
+HIS0101132-130,Rajam,60,Female,1,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0101132-131,Rajam,72,Male,2,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0101132-132,Rajam,60,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,66.66666667
+HIS0101132-133,Rajam,70,Male,3,Service/Salaried,"Above Rs 50,000",Unchecked,70
+HIS0101132-134,Rajam,56,Female,4,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,63.33333333
+HIS0101132-135,Rajam,60,Female,2,Service/Salaried,"Above Rs 50,000",Unchecked,70
+HIS0105132-136,Rajam,66,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0105132-137,Rajam,52,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0105132-138,Rajam,62,Female,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0105132-139,Rajam,48,Female,2,Agriculture,Did not provide,Unchecked,90
+HIS0105132-140,Rajam,62,Female,0,Unemployed,Did not provide,Unchecked,90
+HIS0105132-141,Rajam,58,Female,1,Unemployed,Did not provide,Unchecked,90
+HIS0105132-142,Rajam,47,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0105132-143,Rajam,56,Male,4,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0105132-144,Rajam,45,Female,4,Business/Trade,"Above Rs 50,000",Unchecked,70
+HIS0105132-145,Rajam,45,Female,1,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0105132-146,Rajam,68,Female,0,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,66.66666667
+HIS0105132-147,Rajam,51,Male,2,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,66.66666667
+HIS0105132-148,Rajam,60,Female,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,66.66666667
+HIS0105132-149,Rajam,45,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,70
+HIS0105132-150,Rajam,60,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,70
+HIS0110132-151,Rajam,60,Male,3,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0110132-152,Rajam,59,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0110132-153,Rajam,58,Female,1,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0110132-154,Rajam,60,Others,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0110132-155,Rajam,65,Female,0,Agriculture,Did not provide,Unchecked,89.33333333
+HIS0110132-156,Rajam,50,Male,3,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0110132-157,Rajam,72,Male,0,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0110132-158,Rajam,62,Female,1,Unskilled labour,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0110132-159,Rajam,69,Female,0,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0110132-160,Rajam,61,Female,0,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0113132-161,Rajam,75,Female,4,Unskilled labour,"Rs 30,001 - Rs 50,000",Unchecked,63.33333333
+HIS0113132-162,Rajam,70,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0113132-163,Rajam,64,Female,1,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0113132-164,Rajam,62,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0113132-165,Rajam,82,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0113132-166,Rajam,75,Male,0,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0113132-167,Rajam,47,Female,2,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0113132-168,Rajam,60,Female,3,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,90
+HIS0113132-169,Rajam,74,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0113132-170,Rajam,60,Female,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0113132-171,Rajam,45,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0113132-172,Rajam,59,Female,1,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0113132-173,Rajam,65,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,73.33333333
+HIS0113132-174,Rajam,62,Female,0,Unemployed,"Below Rs 10,000",Unchecked,80
+HIS0113132-175,Rajam,60,Female,1,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0113132-176,Rajam,60,Female,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0113132-177,Rajam,52,Male,3,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,78.66666667
+HIS0113132-178,Rajam,35,Female,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0113132-179,Rajam,72,Male,0,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0113132-180,Rajam,60,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0117132-181,Rajam,39,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0117132-182,Rajam,46,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0117132-183,Rajam,66,Female,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0117132-184,Rajam,64,Female,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,90
+HIS0117132-185,Rajam,68,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0117132-186,Rajam,70,Female,0,Unemployed,"Below Rs 10,000",Unchecked,60
+HIS0117132-187,Rajam,60,Female,0,Unemployed,"Below Rs 10,000",Unchecked,70
+HIS0117132-188,Rajam,65,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0117132-189,Rajam,64,Female,2,Unskilled labour,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0117132-190,Rajam,70,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0117132-191,Rajam,79,Male,0,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0117132-192,Rajam,64,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0117132-193,Rajam,60,Female,0,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0117132-194,Rajam,70,Female,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0117132-195,Rajam,60,Female,4,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0109132-196,Rajam,78,Female,0,Unemployed,"Below Rs 10,000",Unchecked,70
+HIS0109132-197,Rajam,55,Female,1,Agriculture,"Below Rs 10,000",Unchecked,80
+HIS0109132-198,Rajam,62,Female,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0109132-199,Rajam,64,Female,0,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0109132-200,Rajam,70,Male,0,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0109132-201,Rajam,70,Female,0,Agriculture,"Below Rs 10,000",Unchecked,73.33333333
+HIS0109132-202,Rajam,65,Male,2,Unskilled labour,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0109132-203,Rajam,50,Male,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,83.33333333
+HIS0101132-204,Rajam,74,Male,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0101132-205,Rajam,67,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,86.66666667
+HIS0101132-206,Rajam,75,Female,0,Unemployed,"Below Rs 10,000",Unchecked,76.66666667
+HIS0101132-207,Rajam,65,Male,2,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0101132-208,Rajam,69,Female,1,Service/Salaried,"Above Rs 50,000",Unchecked,86.66666667
+HIS0110132-209,Rajam,69,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0110132-210,Rajam,75,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,80
+HIS0110132-211,Rajam,60,Male,3,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0110132-212,Rajam,80,Male,4,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,70
+HIS0110132-213,Rajam,62,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0110132-214,Rajam,58,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,83.33333333
+HIS0109132-215,Rajam,47,Female,5,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,90
+HIS0109132-216,Rajam,40,Male,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0109132-217,Rajam,60,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0109132-218,Rajam,65,Male,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,88.33333333
+HIS0109132-219,Rajam,37,Male,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0109132-220,Rajam,45,Male,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0109132-221,Rajam,57,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0109132-222,Rajam,50,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0109132-223,Rajam,52,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0101132-224,Rajam,62,Female,0,Unemployed,Did not provide,Unchecked,90
+HIS0101132-225,Rajam,70,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0101132-226,Rajam,70,Female,2,Agriculture,"Below Rs 10,000",Checked,90
+HIS0101132-227,Rajam,57,Female,1,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0101132-228,Rajam,57,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0110132-229,Rajam,69,Female,1,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0110132-230,Rajam,69,Female,4,Service/Salaried,"Above Rs 50,000",Unchecked,76.66666667
+HIS0110132-231,Rajam,80,Male,5,Service/Salaried,"Above Rs 50,000",Unchecked,83.33333333
+HIS0110132-232,Rajam,72,Male,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0111132-233,Rajam,65,Male,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0111132-234,Rajam,58,Female,4,Service/Salaried,"Above Rs 50,000",Unchecked,76.66666667
+HIS0111132-235,Rajam,62,Female,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0111132-236,Rajam,72,Female,3,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0111132-237,Rajam,50,Male,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0115132-238,Rajam,73,Male,3,Service/Salaried,"Above Rs 50,000",Unchecked,83.33333333
+HIS0115132-239,Rajam,75,Female,0,Unemployed,"Below Rs 10,000",Unchecked,83.33333333
+HIS0115132-240,Rajam,50,Female,3,Unskilled labour,"Rs 20,001 - Rs 30,000",Unchecked,86.66666667
+HIS0115132-241,Rajam,64,Female,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0115132-242,Rajam,55,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0115132-243,Rajam,60,Male,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0115132-244,Rajam,80,Female,4,Service/Salaried,"Above Rs 50,000",Unchecked,80
+HIS0115132-245,Rajam,65,Male,0,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0115132-246,Rajam,48,Male,4,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0115132-247,Rajam,58,Female,3,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0104132-248,Rajam,40,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0104132-249,Rajam,64,Female,0,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,83.33333333
+HIS0104132-250,Rajam,75,Male,2,Business/Trade,"Above Rs 50,000",Unchecked,76.66666667
+HIS0104132-251,Rajam,76,Female,0,Unemployed,"Below Rs 10,000",Unchecked,76.66666667
+HIS0104132-252,Rajam,68,Male,2,Business/Trade,"Above Rs 50,000",Unchecked,80
+HIS0110132-253,Rajam,60,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0110132-254,Rajam,71,Female,2,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0110132-255,Rajam,65,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0109132-256,Rajam,40,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0109132-257,Rajam,70,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0111132-258,Rajam,63,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,83.33333333
+HIS0111132-259,Rajam,74,Female,0,Agriculture,"Below Rs 10,000",Unchecked,80
+HIS0111132-260,Rajam,60,Female,4,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0111132-261,Rajam,67,Male,1,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,86.66666667
+HIS0111132-262,Rajam,50,Female,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,70
+HIS0111132-263,Rajam,72,Male,4,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,76.33333333
+HIS0111132-264,Rajam,65,Male,0,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0111132-265,Rajam,75,Male,2,Unskilled labour,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0111132-266,Rajam,45,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,76.66666667
+HIS0111132-267,Rajam,50,Male,2,Business/Trade,"Above Rs 50,000",Unchecked,80
+HIS0111132-268,Rajam,48,Female,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0111132-269,Rajam,72,Female,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0115132-270,Rajam,68,Male,0,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0115132-271,Rajam,78,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,76.66666667
+HIS0115132-272,Rajam,69,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0115132-273,Rajam,50,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,86.66666667
+HIS0115132-274,Rajam,55,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0115132-275,Rajam,75,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,80
+HIS0115132-276,Rajam,60,Female,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,70
+HIS0115132-277,Rajam,45,Male,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0112132-278,Rajam,67,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0112132-279,Rajam,62,Female,2,Service/Salaried,"Above Rs 50,000",Unchecked,83.33333333
+HIS0112132-280,Rajam,76,Female,0,Unemployed,"Below Rs 10,000",Unchecked,80
+HIS0112132-281,Rajam,62,Female,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,83.33333333
+HIS0112132-282,Rajam,68,Female,2,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,83.33333333
+HIS0112132-283,Rajam,50,Female,3,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0112132-284,Rajam,74,Female,0,Unemployed,"Below Rs 10,000",Unchecked,80
+HIS0112132-285,Rajam,72,Male,3,Service/Salaried,"Above Rs 50,000",Unchecked,83.33333333
+HIS0112132-286,Rajam,57,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0112132-287,Rajam,60,Male,4,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0112132-288,Rajam,68,Female,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0112132-289,Rajam,55,Female,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,86.66666667
+HIS0112132-290,Rajam,50,Female,3,Agriculture,"Rs 30,001 - Rs 50,000",Unchecked,83.33333333
+HIS0112132-291,Rajam,67,Female,3,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0112132-292,Rajam,60,Male,3,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0112132-293,Rajam,50,Male,2,Service/Salaried,"Above Rs 50,000",Unchecked,79.33333333
+HIS0112132-294,Rajam,45,Male,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0110132-295,Rajam,69,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0110132-296,Rajam,62,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0104132-297,Rajam,63,Male,0,Unemployed,Did not provide,Unchecked,90
+HIS0104132-298,Rajam,54,Female,1,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0110132-299,Rajam,64,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0110132-300,Rajam,71,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,60
+HIS0110132-301,Rajam,75,Male,2,Agriculture,Did not provide,Unchecked,90
+HIS0110132-302,Rajam,64,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0110132-303,Rajam,64,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0110132-304,Rajam,73,Male,3,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0110132-305,Rajam,58,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0110132-306,Rajam,70,Female,4,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0110132-307,Rajam,65,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0110132-308,Rajam,60,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0111132-309,Rajam,60,Female,1,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0111132-310,Rajam,58,Female,1,Unskilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0111132-311,Rajam,64,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0111132-312,Rajam,75,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0111132-313,Rajam,64,Female,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0111132-314,Rajam,42,Male,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0111132-315,Rajam,72,Male,3,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0111132-316,Rajam,34,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0111132-317,Rajam,48,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0111132-318,Rajam,64,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0111132-319,Rajam,57,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0111132-320,Rajam,41,Female,4,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,90
+,,,,,,,,
+HIS0111132-321,Rajam,54,Male,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0111132-322,Rajam,57,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0111132-323,Rajam,59,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0111132-324,Rajam,62,Male,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0111132-325,Rajam,74,Female,4,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0112132-326,Rajam,42,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0112132-327,Rajam,37,Male,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0112132-328,Rajam,39,Female,3,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,60
+HIS0112132-329,Rajam,39,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,80
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0112132-344,Rajam,44,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0112132-345,Rajam,54,Female,4,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0112132-346,Rajam,69,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0112132-347,Rajam,34,Female,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,70
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0112132-359,Rajam,49,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0112132-360,Rajam,53,Male,4,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0112132-361,Rajam,38,Female,3,Unemployed,"Rs 20,001 - Rs 30,000",Unchecked,70
+HIS0112132-362,Rajam,34,Female,3,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,90
+HIS0112132-363,Rajam,44,Female,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,90
+HIS0112132-364,Rajam,52,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0112132-365,Rajam,69,Male,0,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0112132-366,Rajam,74,Male,0,Agriculture,Did not provide,Unchecked,90
+HIS0112132-367,Rajam,47,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0115132-368,Rajam,52,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0115132-369,Rajam,61,Male,1,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,83
+HIS0115132-370,Rajam,69,Male,1,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0115132-371,Rajam,69,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0115132-372,Rajam,70,Female,0,Unemployed,"Below Rs 10,000",Unchecked,70
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0115132-377,Rajam,56,Male,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,90
+HIS0115132-378,Rajam,68,Male,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,90
+HIS0115132-379,Rajam,49,Male,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,70
+HIS0115132-380,Rajam,42,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0115132-381,Rajam,54,Female,1,Unemployed,Did not provide,Unchecked,70
+HIS0115132-382,Rajam,74,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0115132-383,Rajam,80,Male,0,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0115132-384,Rajam,71,Male,9,Unemployed,Did not provide,Unchecked,80
+HIS0115132-385,Rajam,54,Female,1,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0115132-386,Rajam,49,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0115132-387,Rajam,79,Female,0,Unemployed,"Below Rs 10,000",Unchecked,70
+HIS0115132-388,Rajam,54,Female,3,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,90
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0115132-427,Rajam,49,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0208133-1,Simhadri,32,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,80.66666667
+HIS0208133-2,Simhadri,57,Female,3,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,86.66666667
+HIS0208133-3,Simhadri,55,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,78
+HIS0208133-4,Simhadri,45,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,89.66666667
+HIS0208133-5,Simhadri,43,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78.66666667
+HIS0208133-6,Simhadri,35,Female,2,Other,"Below Rs 10,000",Unchecked,79
+HIS0208133-7,Simhadri,45,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74.66666667
+HIS0208133-8,Simhadri,31,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,74.66666667
+HIS0208133-9,Simhadri,47,Female,3,Agriculture,"Below Rs 10,000",Unchecked,74.66666667
+HIS0208133-10,Simhadri,68,Male,5,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,71.33333333
+HIS0208133-21,Simhadri,70,Male,6,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,84
+HIS0208133-22,Simhadri,60,Female,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,72.33333333
+HIS0208133-23,Simhadri,40,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,66
+HIS0208133-24,Simhadri,47,Female,5,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,82.66666667
+HIS0208133-25,Simhadri,46,Male,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,78
+HIS0208133-26,Simhadri,51,Female,1,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,79
+HIS0208133-27,Simhadri,50,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,78.33333333
+HIS0208133-28,Simhadri,45,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,73
+HIS0208133-29,Simhadri,65,Female,7,Service/Salaried,"Above Rs 50,000",Unchecked,80
+HIS0208133-30,Simhadri,43,Male,3,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,78
+HIS0208133-31,Simhadri,58,Male,2,Unskilled labour,"Below Rs 10,000",Unchecked,78.33333333
+HIS0208133-32,Simhadri,35,Male,2,Business/Trade,"Below Rs 10,000",Unchecked,78.66666667
+HIS0208133-33,Simhadri,60,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83
+HIS0208133-34,Simhadri,50,Female,3,Skilled labour,"Below Rs 10,000",Unchecked,80.66666667
+HIS0208133-35,Simhadri,45,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,84.66666667
+HIS0208133-36,Simhadri,35,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,78.66666667
+HIS0208133-37,Simhadri,65,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,71.33333333
+HIS0211133-38,Simhadri,47,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80.33333333
+HIS0208133-39,Simhadri,43,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,78.66666667
+HIS0208133-40,Simhadri,43,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0208133-41,Simhadri,65,Female,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,88
+HIS0208133-42,Simhadri,50,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,85
+HIS0208133-43,Simhadri,56,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0208133-44,Simhadri,58,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,82.33333333
+HIS0208133-45,Simhadri,48,Female,5,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,84.33333333
+HIS0208133-46,Simhadri,33,Female,2,Service/Salaried,"Above Rs 50,000",Unchecked,84
+HIS0211133-47,Simhadri,55,Male,2,Unemployed,Don't know,Unchecked,72.66666667
+HIS0211133-48,Simhadri,45,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,83
+HIS0211133-49,Simhadri,35,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,81
+HIS0211133-50,Simhadri,59,Female,1,Unemployed,"Below Rs 10,000",Checked,81.33333333
+HIS0208133-51,Simhadri,62,Female,0,Other,"Below Rs 10,000",Unchecked,73
+HIS0211133-52,Simhadri,30,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,71.66666667
+HIS0211133-53,Simhadri,36,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0211133-54,Simhadri,30,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,73.66666667
+HIS0211133-55,Simhadri,45,Female,5,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0211133-56,Simhadri,56,Female,1,Other,"Below Rs 10,000",Unchecked,84.66666667
+HIS0211133-57,Simhadri,60,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0211133-58,Simhadri,48,Male,2,Business/Trade,"Below Rs 10,000",Unchecked,79.33333333
+HIS0211133-59,Simhadri,85,Female,0,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78.66666667
+HIS0211133-60,Simhadri,68,Male,0,Other,"Below Rs 10,000",Unchecked,74
+HIS0211133-61,Simhadri,58,Female,0,Service/Salaried,"Above Rs 50,000",Unchecked,72.66666667
+HIS0211133-62,Simhadri,48,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,78.66666667
+HIS0211133-63,Simhadri,35,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0211133-64,Simhadri,60,Female,4,Agriculture,"Below Rs 10,000",Unchecked,72.66666667
+HIS0211133-65,Simhadri,40,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0211133-66,Simhadri,32,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0211133-67,Simhadri,43,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,80.66666667
+HIS0211133-68,Simhadri,50,Female,3,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,77
+HIS0211133-69,Simhadri,31,Female,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,77.33333333
+HIS0211133-70,Simhadri,41,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,84.33333333
+HIS0211133-71,Simhadri,31,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,84.33333333
+HIS0211133-72,Simhadri,35,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,77
+HIS0211133-73,Simhadri,68,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,78.66666667
+HIS0211133-74,Simhadri,65,Male,6,Service/Salaried,"Above Rs 50,000",Unchecked,80
+HIS0211133-75,Simhadri,50,Female,3,Skilled labour,"Above Rs 50,000",Unchecked,75.66666667
+HIS0211133-76,Simhadri,75,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,78
+HIS0211133-77,Simhadri,55,Female,3,Service/Salaried,"Above Rs 50,000",Unchecked,84.66666667
+HIS0211133-78,Simhadri,46,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,76.66666667
+HIS0211133-79,Simhadri,54,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,78.66666667
+HIS0211133-80,Simhadri,63,Male,3,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,79.66666667
+HIS0214133-89,Simhadri,45,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0214133-90,Simhadri,40,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,78
+HIS0214133-91,Simhadri,73,Male,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,79.33333333
+HIS0214133-92,Simhadri,55,Female,1,Agriculture,"Below Rs 10,000",Unchecked,77.33333333
+HIS0214133-93,Simhadri,69,Male,2,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0214133-94,Simhadri,65,Female,1,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,88
+HIS0214133-95,Simhadri,47,Female,5,Service/Salaried,"Rs 30,001 - Rs 50,000",Checked,73
+HIS0214133-96,Simhadri,55,Female,4,Service/Salaried,"Above Rs 50,000",Unchecked,79.66666667
+HIS0214133-97,Simhadri,42,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80.66666667
+HIS0214133-98,Simhadri,53,Female,2,Unemployed,"Below Rs 10,000",Unchecked,72
+HIS0214133-117,Simhadri,42,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80.66666667
+HIS0214133-119,Simhadri,55,Female,1,Other,"Below Rs 10,000",Unchecked,76.66666667
+HIS0214133-120,Simhadri,73,Female,0,Other,"Below Rs 10,000",Unchecked,75.33333333
+HIS0214133-121,Simhadri,33,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74
+HIS0214133-122,Simhadri,40,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,77.66666667
+HIS0214133-123,Simhadri,30,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,74.66666667
+HIS0214133-124,Simhadri,31,Female,6,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,71.66666667
+HIS0214133-125,Simhadri,58,Female,2,Business/Trade,"Rs 10,000 - Rs 20,000",Unchecked,71.33333333
+HIS0214133-126,Simhadri,50,Male,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,84.66666667
+HIS0214133-127,Simhadri,31,Female,4,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,78.66666667
+HIS0214133-128,Simhadri,49,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0214133-129,Simhadri,70,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0214133-130,Simhadri,78,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0214133-131,Simhadri,38,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0214133-132,Simhadri,48,Male,3,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,75.33333333
+HIS0214133-133,Simhadri,47,Female,4,Service/Salaried,"Above Rs 50,000",Unchecked,83.33333333
+HIS0214133-134,Simhadri,30,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,77.66666667
+HIS0214133-135,Simhadri,59,Female,3,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,77.33333333
+HIS0214133-136,Simhadri,48,Male,4,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,74.66666667
+HIS0214133-137,Simhadri,32,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,76.33333333
+HIS0214133-138,Simhadri,56,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0214133-139,Simhadri,45,Male,5,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,82
+HIS0214133-140,Simhadri,38,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,74.66666667
+HIS0214133-141,Simhadri,36,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,77.66666667
+HIS0214133-142,Simhadri,63,Male,3,Service/Salaried,"Above Rs 50,000",Unchecked,82.33333333
+HIS0214133-143,Simhadri,40,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,88.33333333
+HIS0209133-144,Simhadri,48,Female,6,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0209133-145,Simhadri,63,Female,8,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0209133-146,Simhadri,67,Male,1,Agriculture,"Below Rs 10,000",Unchecked,80.33333333
+HIS0209133-147,Simhadri,39,Male,2,Unemployed,"Below Rs 10,000",Unchecked,76
+HIS0209133-148,Simhadri,48,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,72
+HIS0209133-149,Simhadri,48,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0209133-150,Simhadri,46,Female,3,Agriculture,"Below Rs 10,000",Unchecked,75.33333333
+HIS0209133-151,Simhadri,65,Male,2,Unemployed,"Below Rs 10,000",Unchecked,82.66666667
+HIS0209133-152,Simhadri,47,Female,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,75.33333333
+HIS0209133-153,Simhadri,45,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0209133-154,Simhadri,40,Male,1,Other,"Below Rs 10,000",Unchecked,74
+HIS0209133-155,Simhadri,55,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,74.66666667
+HIS0209133-156,Simhadri,37,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0209133-157,Simhadri,65,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74.33333333
+HIS0209133-158,Simhadri,43,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,72.66666667
+HIS0209133-159,Simhadri,60,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,67.66666667
+HIS0209133-160,Simhadri,60,Female,0,Other,"Below Rs 10,000",Unchecked,72.66666667
+HIS0209133-161,Simhadri,73,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0209133-162,Simhadri,65,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0209133-163,Simhadri,70,Male,0,Other,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0209133-164,Simhadri,46,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0209133-165,Simhadri,45,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74
+HIS0209133-166,Simhadri,37,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0209133-167,Simhadri,50,Male,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,75.66666667
+HIS0209133-168,Simhadri,50,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0209133-169,Simhadri,42,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,77.33333333
+HIS0209133-170,Simhadri,54,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74.33333333
+HIS0209133-171,Simhadri,35,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0209133-172,Simhadri,48,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0209133-173,Simhadri,45,Male,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,74.66666667
+HIS0209133-174,Simhadri,45,Female,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Checked,69.66666667
+HIS0209133-175,Simhadri,41,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,75.33333333
+HIS0209133-176,Simhadri,47,Female,3,Service/Salaried,"Above Rs 50,000",Unchecked,82.66666667
+HIS0209133-177,Simhadri,34,Female,2,Service/Salaried,"Above Rs 50,000",Unchecked,71
+HIS0203133-184,Simhadri,48,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,78
+HIS0203133-185,Simhadri,32,Male,5,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0203133-186,Simhadri,55,Female,6,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78
+HIS0203133-187,Simhadri,34,Male,3,Skilled labour,"Below Rs 10,000",Unchecked,77.33333333
+HIS0203133-188,Simhadri,39,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,72.66666667
+HIS0203133-189,Simhadri,59,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0203133-190,Simhadri,35,Female,4,Unskilled labour,"Below Rs 10,000",Unchecked,75.33333333
+HIS0203133-191,Simhadri,36,Female,5,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,71.33333333
+HIS0203133-192,Simhadri,45,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,76.33333333
+HIS0203133-193,Simhadri,48,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,69.33333333
+HIS0203133-194,Simhadri,63,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,75.66666667
+HIS0203133-195,Simhadri,60,Male,7,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0203133-196,Simhadri,37,Female,4,Service/Salaried,"Above Rs 50,000",Checked,79.33333333
+HIS0203133-197,Simhadri,30,Female,5,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,71
+HIS0203133-198,Simhadri,68,Female,6,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,72.66666667
+HIS0203133-199,Simhadri,50,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,78.33333333
+HIS0203133-200,Simhadri,65,Female,1,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,81
+HIS0203133-201,Simhadri,52,Male,5,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.33333333
+HIS0203133-202,Simhadri,70,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77
+HIS0203133-203,Simhadri,33,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74.33333333
+HIS0203133-205,Simhadri,62,Male,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,77.33333333
+HIS0203133-206,Simhadri,34,Male,9,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,68
+HIS0203133-207,Simhadri,35,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,76
+HIS0209133-208,Simhadri,58,Female,2,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,72.66666667
+HIS0203133-209,Simhadri,38,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75.66666667
+HIS0203133-210,Simhadri,70,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78
+HIS0203133-211,Simhadri,39,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77
+HIS0203133-212,Simhadri,58,Male,6,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78
+HIS0203133-213,Simhadri,32,Female,8,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,77.33333333
+HIS0202133-214,Simhadri,52,Female,3,Other,"Rs 10,000 - Rs 20,000",Unchecked,72.66666667
+HIS0202133-215,Simhadri,50,Male,4,Skilled labour,"Below Rs 10,000",Unchecked,76
+HIS0202133-216,Simhadri,33,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0202133-217,Simhadri,64,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,80.33333333
+HIS0202133-218,Simhadri,30,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0202133-219,Simhadri,50,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0202133-220,Simhadri,30,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74
+HIS0203133-234,Simhadri,45,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,79.33333333
+HIS0203133-235,Simhadri,48,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78
+HIS0203133-236,Simhadri,65,Female,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80.33333333
+HIS0203133-237,Simhadri,58,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78
+HIS0203133-238,Simhadri,40,Female,5,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0203133-239,Simhadri,38,Female,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,78.66666667
+HIS0202133-240,Simhadri,50,Female,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,75.33333333
+HIS0202133-241,Simhadri,47,Male,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,77.66666667
+HIS0202133-242,Simhadri,65,Male,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,83
+HIS0202133-243,Simhadri,50,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,75
+HIS0202133-244,Simhadri,48,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77
+HIS0202133-245,Simhadri,60,Male,8,Service/Salaried,"Above Rs 50,000",Unchecked,78.66666667
+HIS0202133-246,Simhadri,55,Female,1,Unemployed,"Below Rs 10,000",Unchecked,70.33333333
+HIS0202133-247,Simhadri,40,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0202133-248,Simhadri,65,Male,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,75.66666667
+HIS0202133-249,Simhadri,65,Female,0,Unemployed,"Below Rs 10,000",Checked,81.66666667
+HIS0205133-250,Simhadri,65,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,72.33333333
+HIS0205133-251,Simhadri,58,Female,3,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,76.33333333
+HIS0205133-252,Simhadri,44,Male,4,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,73
+HIS0205133-253,Simhadri,48,Female,2,Unemployed,"Below Rs 10,000",Unchecked,77.33333333
+HIS0205133-254,Simhadri,36,Male,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,78.33333333
+HIS0205133-255,Simhadri,41,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,71
+HIS0205133-256,Simhadri,32,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,74
+HIS0205133-257,Simhadri,45,Female,2,Unemployed,"Below Rs 10,000",Unchecked,76
+HIS0205133-258,Simhadri,55,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0205133-259,Simhadri,32,Female,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,73
+HIS0202133-260,Simhadri,32,Female,7,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,82
+HIS0202133-261,Simhadri,75,Female,5,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,78.66666667
+HIS0202133-262,Simhadri,52,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,73
+HIS0202133-263,Simhadri,59,Female,1,Other,"Below Rs 10,000",Unchecked,73.33333333
+HIS0205133-264,Simhadri,50,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0205133-265,Simhadri,60,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,72.66666667
+HIS0205133-266,Simhadri,40,Male,4,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0205133-267,Simhadri,45,Female,4,Unskilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0205133-268,Simhadri,32,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74.33333333
+HIS0205133-269,Simhadri,38,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,79.33333333
+HIS0205133-270,Simhadri,42,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74.66666667
+HIS0205133-271,Simhadri,39,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0205133-272,Simhadri,34,Male,4,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78
+HIS0205133-273,Simhadri,32,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0205133-276,Simhadri,38,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,74.66666667
+HIS0205133-277,Simhadri,40,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0205133-278,Simhadri,37,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.33333333
+HIS0205133-279,Simhadri,72,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,77.66666667
+HIS0205133-280,Simhadri,40,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.33333333
+HIS0205133-281,Simhadri,35,Male,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,75
+HIS0205133-282,Simhadri,45,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0205133-283,Simhadri,52,Male,5,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,77.66666667
+HIS0202133-294,Simhadri,63,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,78.33333333
+HIS0202133-295,Simhadri,49,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80.66666667
+HIS0202133-296,Simhadri,48,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,77.66666667
+HIS0202133-297,Simhadri,68,Female,0,Other,"Below Rs 10,000",Unchecked,75.33333333
+HIS0202133-298,Simhadri,42,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,74.33333333
+HIS0202133-299,Simhadri,61,Female,0,Other,"Below Rs 10,000",Unchecked,78.66666667
+HIS0202133-300,Simhadri,46,Male,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78.33333333
+HIS0205133-305,Simhadri,49,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0205133-306,Simhadri,35,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0205133-307,Simhadri,32,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0205133-308,Simhadri,32,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0205133-309,Simhadri,65,Male,4,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77
+HIS0205133-310,Simhadri,49,Female,1,Unskilled labour,"Below Rs 10,000",Unchecked,80.33333333
+HIS0205133-311,Simhadri,40,Male,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,85.66666667
+HIS0202133-312,Simhadri,75,Female,0,Agriculture,"Below Rs 10,000",Unchecked,76.66666667
+HIS0202133-313,Simhadri,35,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78.66666667
+HIS0202133-314,Simhadri,52,Male,2,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,81.33333333
+HIS0202133-315,Simhadri,48,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0202133-316,Simhadri,48,Female,4,Unskilled labour,"Below Rs 10,000",Unchecked,81.66666667
+HIS0202133-317,Simhadri,62,Male,1,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0202133-318,Simhadri,43,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0225133-319,Simhadri,46,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74.66666667
+HIS0225133-320,Simhadri,70,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,79
+HIS0225133-321,Simhadri,36,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,74
+HIS0225133-322,Simhadri,40,Male,3,Business/Trade,"Above Rs 50,000",Unchecked,77.33333333
+HIS0225133-323,Simhadri,60,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,74.33333333
+HIS0225133-324,Simhadri,70,Female,1,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77
+HIS0225133-325,Simhadri,38,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,77
+HIS0225133-326,Simhadri,48,Male,2,Business/Trade,"Rs 30,001 - Rs 50,000",Unchecked,76.66666667
+HIS0225133-327,Simhadri,63,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,79
+HIS0225133-328,Simhadri,60,Male,1,Agriculture,"Below Rs 10,000",Unchecked,75.33333333
+HIS0225133-329,Simhadri,50,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,84
+HIS0225133-330,Simhadri,65,Male,1,Agriculture,"Below Rs 10,000",Unchecked,80.33333333
+HIS0225133-331,Simhadri,32,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,74.33333333
+HIS0225133-332,Simhadri,31,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,71
+HIS0225133-333,Simhadri,34,Male,5,Service/Salaried,"Above Rs 50,000",Unchecked,76
+HIS0225133-334,Simhadri,33,Male,1,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,68.66666667
+HIS0225133-335,Simhadri,30,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0225133-336,Simhadri,40,Male,3,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,77.33333333
+HIS0222133-337,Simhadri,50,Female,3,Service/Salaried,"Above Rs 50,000",Unchecked,82.66666667
+HIS0222133-338,Simhadri,37,Male,10,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,74
+HIS0222133-339,Simhadri,35,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0222133-340,Simhadri,53,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74
+HIS0222133-341,Simhadri,45,Male,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,77
+HIS0222133-342,Simhadri,68,Male,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78.66666667
+HIS0222133-343,Simhadri,43,Female,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,75.66666667
+HIS0222133-344,Simhadri,48,Female,6,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0222133-345,Simhadri,35,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,72.33333333
+HIS0222133-346,Simhadri,70,Female,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,78
+HIS0222133-347,Simhadri,33,Male,3,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,73.33333333
+HIS0222133-348,Simhadri,30,Male,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,73.66666667
+HIS0222133-349,Simhadri,56,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0222133-350,Simhadri,68,Male,4,Unskilled labour,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0222133-351,Simhadri,32,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74.33333333
+HIS0222133-352,Simhadri,70,Male,0,Unskilled labour,"Below Rs 10,000",Unchecked,81
+HIS0222133-353,Simhadri,68,Male,0,Agriculture,"Below Rs 10,000",Unchecked,79.66666667
+HIS0222133-354,Simhadri,30,Male,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,76
+HIS0221133-355,Simhadri,43,Male,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,76.66666667
+HIS0221133-356,Simhadri,36,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,75
+HIS0221133-357,Simhadri,35,Male,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,74
+HIS0221133-358,Simhadri,80,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,75
+HIS0221133-359,Simhadri,57,Male,4,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,80
+HIS0221133-360,Simhadri,48,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,71.33333333
+HIS0221133-361,Simhadri,47,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78.33333333
+HIS0221133-362,Simhadri,54,Male,6,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,81
+HIS0221133-363,Simhadri,50,Female,5,Service/Salaried,"Above Rs 50,000",Unchecked,76.33333333
+HIS0221133-364,Simhadri,48,Male,4,Service/Salaried,"Above Rs 50,000",Unchecked,69
+HIS0221133-365,Simhadri,45,Female,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,74.33333333
+HIS0221133-366,Simhadri,40,Female,4,Business/Trade,"Above Rs 50,000",Unchecked,69
+HIS0221133-367,Simhadri,43,Male,2,Agriculture,"Below Rs 10,000",Unchecked,86.33333333
+HIS0221133-368,Simhadri,47,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,75
+HIS0221133-369,Simhadri,48,Female,6,Service/Salaried,"Above Rs 50,000",Unchecked,77.33333333
+HIS0221133-370,Simhadri,37,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0222133-423,Simhadri,62,Female,4,Unskilled labour,"Below Rs 10,000",Unchecked,74.66666667
+HIS0222133-424,Simhadri,60,Male,1,Agriculture,"Below Rs 10,000",Unchecked,79.33333333
+HIS0222133-425,Simhadri,95,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,84.66666667
+HIS0222133-426,Simhadri,40,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,75.66666667
+HIS0222133-428,Simhadri,48,Male,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,72
+HIS0222133-429,Simhadri,57,Female,1,Other,"Below Rs 10,000",Unchecked,77
+HIS0222133-430,Simhadri,32,Male,3,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,72.33333333
+HIS0222133-431,Simhadri,32,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Unchecked,80
+HIS0222133-432,Simhadri,41,Female,4,Skilled labour,"Below Rs 10,000",Unchecked,73
+HIS0222133-433,Simhadri,70,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,73
+HIS0222133-434,Simhadri,32,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0222133-435,Simhadri,32,Male,3,Service/Salaried,"Above Rs 50,000",Unchecked,77.66666667
+HIS0222133-436,Simhadri,50,Female,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0222133-437,Simhadri,75,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,68.66666667
+HIS0222133-438,Simhadri,55,Female,2,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,77
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0221133-567,Simhadri,60,Female,2,Agriculture,"Below Rs 10,000",Unchecked,67.33333333
+HIS0221133-568,Simhadri,72,Male,2,Agriculture,"Below Rs 10,000",Unchecked,72.33333333
+HIS0221133-569,Simhadri,40,Female,2,Unskilled labour,"Below Rs 10,000",Unchecked,71
+HIS0221133-570,Simhadri,49,Male,3,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,74.66666667
+HIS0221133-571,Simhadri,48,Male,2,Unskilled labour,"Below Rs 10,000",Unchecked,73.33333333
+HIS0221133-572,Simhadri,36,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,78.66666667
+HIS0221133-573,Simhadri,74,Male,2,Business/Trade,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0221133-574,Simhadri,78,Male,1,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,66
+HIS0221133-575,Simhadri,36,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0221133-576,Simhadri,46,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0221133-577,Simhadri,36,Male,7,Business/Trade,"Rs 10,000 - Rs 20,000",Unchecked,70.33333333
+HIS0221133-578,Simhadri,44,Female,2,Business/Trade,"Above Rs 50,000",Unchecked,68.33333333
+HIS0221133-579,Simhadri,32,Male,3,Service/Salaried,"Above Rs 50,000",Unchecked,69.33333333
+HIS0221133-580,Simhadri,42,Female,4,Service/Salaried,"Above Rs 50,000",Unchecked,78
+HIS0221133-581,Simhadri,48,Female,1,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,72
+HIS0221133-582,Simhadri,49,Female,4,Service/Salaried,"Above Rs 50,000",Unchecked,73
+HIS0221133-583,Simhadri,36,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,78.33333333
+HIS0225133-601,Simhadri,62,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,71.33333333
+HIS0225133-602,Simhadri,31,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Unchecked,73.33333333
+HIS0225133-603,Simhadri,45,Female,3,Business/Trade,"Rs 10,000 - Rs 20,000",Unchecked,71
+HIS0225133-604,Simhadri,30,Female,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,66.66666667
+HIS0225133-605,Simhadri,50,Female,1,Agriculture,"Rs 20,001 - Rs 30,000",Unchecked,74.66666667
+HIS0225133-606,Simhadri,60,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,77.33333333
+HIS0225133-607,Simhadri,55,Female,1,Unemployed,"Below Rs 10,000",Unchecked,69.33333333
+HIS0225133-608,Simhadri,58,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0225133-609,Simhadri,73,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0225133-610,Simhadri,32,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73
+HIS0225133-611,Simhadri,38,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,74
+HIS0225133-612,Simhadri,62,Female,4,Agriculture,"Below Rs 10,000",Unchecked,73.33333333
+HIS0225133-613,Simhadri,63,Female,0,Unemployed,"Below Rs 10,000",Unchecked,67.66666667
+HIS0225133-614,Simhadri,36,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0225133-615,Simhadri,53,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,68
+HIS0225133-616,Simhadri,30,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,75.33333333
+HIS0225133-617,Simhadri,36,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,75.33333333
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0108129-29,Chennai,34,Male,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,74
+HIS0108129-30,Chennai,45,Female,4,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0108129-31,Chennai,36,Female,0,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,74
+HIS0108129-32,Chennai,72,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0108129-33,Chennai,51,Female,2,Skilled labour,"Below Rs 10,000",Checked,71.33333333
+HIS0105129-34,Chennai,56,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,82.66666667
+HIS0108129-35,Chennai,63,Female,2,Service/Salaried,"Below Rs 10,000",Checked,90
+HIS0108129-36,Chennai,44,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,61.33333333
+HIS0108129-37,Chennai,64,Male,4,Unemployed,"Rs 10,000 - Rs 20,000",Unchecked,75
+HIS0108129-38,Chennai,65,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,84
+HIS0108129-39,Chennai,42,Female,2,Skilled labour,"Below Rs 10,000",Checked,75.33333333
+HIS0108129-40,Chennai,65,Female,0,Skilled labour,"Below Rs 10,000",Checked,81.33333333
+HIS0108129-41,Chennai,69,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,84.66666667
+HIS0102129-42,Chennai,76,Female,2,Unemployed,"Below Rs 10,000",Checked,80
+HIS0102129-43,Chennai,95,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,64
+HIS0102129-44,Chennai,75,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,84.66666667
+HIS0102129-45,Chennai,63,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86
+HIS0102129-46,Chennai,49,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90.66666667
+HIS0102129-47,Chennai,48,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86
+HIS0102129-48,Chennai,35,Female,2,Unemployed,"Below Rs 10,000",Checked,74.66666667
+HIS0102129-49,Chennai,42,Male,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,78.66666667
+HIS0102129-50,Chennai,45,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,72
+HIS0102129-51,Chennai,47,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0102129-52,Chennai,33,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,78.66666667
+HIS0102129-53,Chennai,70,Male,4,Skilled labour,"Above Rs 50,000",Checked,80
+HIS0102129-54,Chennai,52,Male,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,79.33333333
+HIS0102129-55,Chennai,38,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,78.66666667
+HIS0102129-56,Chennai,48,Female,4,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,87.33333333
+HIS0102129-57,Chennai,35,Female,2,Skilled labour,"Below Rs 10,000",Checked,91.33333333
+HIS0102129-58,Chennai,30,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,77.33333333
+HIS0102129-59,Chennai,34,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,77.33333333
+HIS0102129-60,Chennai,37,Female,0,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,72.66666667
+HIS0102129-61,Chennai,56,Male,2,Unemployed,"Below Rs 10,000",Checked,89.33333333
+HIS0102129-62,Chennai,60,Male,1,Skilled labour,"Below Rs 10,000",Checked,76
+HIS0108129-63,Chennai,40,Female,3,Unemployed,"Rs 10,000 - Rs 20,000",Checked,62.66666667
+HIS0102129-64,Chennai,36,Female,4,Unemployed,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0108129-65,Chennai,64,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,95
+HIS0108129-66,Chennai,44,Male,3,Skilled labour,"Above Rs 50,000",Checked,78.33333333
+HIS0108129-67,Chennai,34,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,68
+HIS0108129-68,Chennai,45,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,57
+HIS0108129-69,Chennai,56,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,89
+HIS0108129-70,Chennai,52,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0108129-71,Chennai,41,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90.33333333
+HIS0108129-72,Chennai,40,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,84
+HIS0108129-73,Chennai,58,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83
+HIS0108129-74,Chennai,32,Female,3,Service/Salaried,"Below Rs 10,000",Checked,64.66666667
+HIS0102129-75,Chennai,65,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,114
+HIS0108129-76,Chennai,35,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,88
+HIS0108129-77,Chennai,60,Female,3,Service/Salaried,"Below Rs 10,000",Checked,73
+HIS0108129-78,Chennai,80,Male,0,Unemployed,"Below Rs 10,000",Checked,84
+HIS0108129-79,Chennai,47,Female,5,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,57
+HIS0108129-80,Chennai,38,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,77.66666667
+HIS0102129-81,Chennai,59,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,78
+HIS0102129-82,Chennai,52,Male,4,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,72.66666667
+HIS0102129-83,Chennai,57,Male,6,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,73.33333333
+HIS0102129-84,Chennai,39,Female,6,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,74
+HIS0102129-85,Chennai,53,Female,4,Unemployed,"Rs 10,000 - Rs 20,000",Checked,100
+HIS0108129-86,Chennai,47,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,72
+HIS0108129-87,Chennai,71,Male,6,Unemployed,"Below Rs 10,000",Checked,78.66666667
+HIS0108129-88,Chennai,40,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,94
+HIS0108129-89,Chennai,32,Female,2,Skilled labour,"Below Rs 10,000",Checked,80.66666667
+HIS0108129-90,Chennai,32,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,63.33333333
+HIS0108129-91,Chennai,65,Female,3,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,66.66666667
+HIS0108129-92,Chennai,75,Male,0,Unemployed,"Below Rs 10,000",Checked,84.66666667
+HIS0108129-93,Chennai,50,Female,4,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,87.33333333
+HIS0105129-94,Chennai,30,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,74
+HIS0108129-95,Chennai,51,Male,3,Skilled labour,"Below Rs 10,000",Checked,89.33333333
+HIS0110129-116,Chennai,76,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,86
+HIS0107129-117,Chennai,56,Male,2,Skilled labour,"Below Rs 10,000",Checked,87.33333333
+HIS0107129-118,Chennai,71,Male,0,Unemployed,"Below Rs 10,000",Checked,79.33333333
+HIS0107129-119,Chennai,67,Female,0,Unemployed,"Below Rs 10,000",Checked,70.66666667
+HIS0107129-120,Chennai,62,Male,1,Skilled labour,"Below Rs 10,000",Checked,97.33333333
+HIS0107129-121,Chennai,57,Male,4,Skilled labour,"Below Rs 10,000",Checked,94.66666667
+HIS0107129-122,Chennai,70,Female,0,Unemployed,"Below Rs 10,000",Checked,74
+HIS0107129-123,Chennai,65,Female,1,Skilled labour,"Below Rs 10,000",Checked,79.33333333
+HIS0110129-124,Chennai,30,Male,2,Skilled labour,"Below Rs 10,000",Checked,77.33333333
+HIS0110129-125,Chennai,60,Female,2,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,67.33333333
+HIS0110129-126,Chennai,60,Female,2,Skilled labour,"Below Rs 10,000",Checked,74.66666667
+HIS0110129-127,Chennai,34,Male,2,Skilled labour,"Below Rs 10,000",Checked,90
+HIS0110129-128,Chennai,35,Male,2,Skilled labour,"Below Rs 10,000",Checked,96.66666667
+HIS0107129-129,Chennai,60,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,71.33333333
+HIS0107129-130,Chennai,50,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,79.33333333
+HIS0107129-131,Chennai,54,Female,1,Unemployed,"Below Rs 10,000",Checked,66.66666667
+HIS0110129-132,Chennai,50,Others,4,Skilled labour,"Below Rs 10,000",Unchecked,90
+HIS0110129-133,Chennai,70,Female,5,Skilled labour,"Below Rs 10,000",Unchecked,73.66666667
+HIS0110129-134,Chennai,55,Female,0,Skilled labour,"Below Rs 10,000",Checked,81.66666667
+HIS0110129-135,Chennai,38,Female,2,Skilled labour,"Below Rs 10,000",Checked,79
+HIS0110129-136,Chennai,60,Male,2,Skilled labour,"Below Rs 10,000",Checked,86.33333333
+HIS0110129-137,Chennai,80,Female,2,Skilled labour,"Below Rs 10,000",Checked,85
+HIS0110129-138,Chennai,32,Male,3,Unskilled labour,"Below Rs 10,000",Checked,85
+HIS0110129-139,Chennai,56,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,80.66666667
+HIS0110129-140,Chennai,60,Female,2,Skilled labour,"Below Rs 10,000",Checked,88.66666667
+HIS0110129-141,Chennai,62,Female,2,Skilled labour,"Below Rs 10,000",Checked,85.33333333
+HIS0107129-142,Chennai,80,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,76
+HIS0107129-143,Chennai,57,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,99
+HIS0107129-144,Chennai,80,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,82.66666667
+HIS0107129-145,Chennai,37,Male,2,Skilled labour,"Below Rs 10,000",Checked,80.66666667
+HIS0107129-146,Chennai,38,Male,3,Skilled labour,"Below Rs 10,000",Checked,108.6666667
+HIS0107129-147,Chennai,70,Female,1,Skilled labour,"Below Rs 10,000",Checked,81.66666667
+HIS0107129-148,Chennai,55,Female,2,Skilled labour,"Below Rs 10,000",Checked,86.33333333
+HIS0107129-149,Chennai,40,Female,4,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0107129-150,Chennai,44,Female,4,Skilled labour,"Below Rs 10,000",Checked,112
+HIS0107129-151,Chennai,57,Male,2,Skilled labour,"Below Rs 10,000",Checked,97.66666667
+HIS0110129-152,Chennai,40,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,95.33333333
+HIS0110129-153,Chennai,55,Male,3,Skilled labour,"Below Rs 10,000",Checked,70
+HIS0110129-154,Chennai,52,Male,2,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,97.33333333
+HIS0110129-155,Chennai,88,Female,0,Service/Salaried,"Below Rs 10,000",Checked,77.33333333
+HIS0110129-156,Chennai,56,Female,2,Business/Trade,"Below Rs 10,000",Checked,75.33333333
+HIS0110129-157,Chennai,34,Female,5,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,79.66666667
+HIS0110129-158,Chennai,67,Male,0,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,64
+HIS0110129-159,Chennai,53,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,78.33333333
+HIS0110129-160,Chennai,35,Female,2,Unemployed,"Below Rs 10,000",Checked,66.33333333
+HIS0107129-161,Chennai,45,Male,4,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,99.66666667
+HIS0107129-162,Chennai,43,Female,0,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,82.33333333
+HIS0107129-163,Chennai,40,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,78
+HIS0107129-164,Chennai,54,Female,16,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,95.33333333
+HIS0107129-165,Chennai,40,Female,3,Skilled labour,"Below Rs 10,000",Checked,73
+HIS0107129-166,Chennai,45,Male,5,Skilled labour,"Below Rs 10,000",Checked,92.66666667
+HIS0107129-167,Chennai,56,Female,2,Skilled labour,"Below Rs 10,000",Checked,110.3333333
+HIS0107129-168,Chennai,33,Female,4,Skilled labour,"Below Rs 10,000",Checked,78
+HIS0107129-169,Chennai,55,Female,2,Unemployed,"Below Rs 10,000",Checked,90.33333333
+HIS0107129-170,Chennai,57,Female,1,Skilled labour,"Below Rs 10,000",Checked,85
+HIS0105129-171,Chennai,60,Female,0,Skilled labour,"Below Rs 10,000",Checked,91.33333333
+HIS0105129-172,Chennai,75,Female,0,Unemployed,"Below Rs 10,000",Checked,68
+HIS0105129-173,Chennai,75,Female,2,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0105129-174,Chennai,66,Male,0,Business/Trade,"Below Rs 10,000",Checked,86
+HIS0105129-175,Chennai,56,Male,4,Skilled labour,"Below Rs 10,000",Checked,95.33333333
+HIS0105129-176,Chennai,73,Male,0,Unemployed,"Below Rs 10,000",Checked,96
+HIS0105129-177,Chennai,64,Male,1,Unemployed,"Below Rs 10,000",Checked,90
+HIS0105129-178,Chennai,56,Female,1,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,94.66666667
+HIS0103129-179,Chennai,56,Female,1,Unemployed,"Below Rs 10,000",Checked,76.66666667
+HIS0103129-180,Chennai,33,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,65.33333333
+HIS0103129-181,Chennai,64,Female,0,Unskilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0103129-182,Chennai,67,Female,0,Unemployed,"Below Rs 10,000",Checked,78
+HIS0103129-183,Chennai,52,Male,0,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,75.33333333
+HIS0103129-184,Chennai,47,Female,2,Unemployed,"Below Rs 10,000",Checked,73.33333333
+HIS0103129-185,Chennai,73,Female,0,Unemployed,"Below Rs 10,000",Checked,68.66666667
+HIS0103129-186,Chennai,48,Female,3,Skilled labour,"Below Rs 10,000",Checked,72.66666667
+HIS0103129-187,Chennai,68,Female,1,Unskilled labour,"Below Rs 10,000",Checked,98.66666667
+HIS0107129-188,Chennai,49,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0107129-189,Chennai,82,Male,8,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,81.33333333
+HIS0107129-190,Chennai,48,Female,3,Skilled labour,"Below Rs 10,000",Checked,86
+HIS0107129-191,Chennai,31,Female,2,Service/Salaried,"Above Rs 50,000",Checked,72.33333333
+HIS0107129-192,Chennai,60,Male,1,Skilled labour,"Below Rs 10,000",Checked,96
+HIS0107129-193,Chennai,44,Female,1,Unemployed,"Below Rs 10,000",Checked,84.66666667
+HIS0110129-194,Chennai,44,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,79.33333333
+HIS0110129-195,Chennai,60,Male,3,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0110129-196,Chennai,60,Female,1,Unemployed,"Below Rs 10,000",Checked,85.33333333
+HIS0110129-197,Chennai,51,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,75.66666667
+HIS0110129-198,Chennai,55,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,82.33333333
+HIS0110129-199,Chennai,45,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,78
+HIS0107129-200,Chennai,39,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,92.66666667
+HIS0107129-201,Chennai,44,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,105.3333333
+HIS0107129-202,Chennai,49,Male,1,Skilled labour,"Below Rs 10,000",Checked,120
+HIS0107129-203,Chennai,60,Male,1,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,78.66666667
+HIS0105129-204,Chennai,72,Female,1,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,91
+HIS0105129-205,Chennai,75,Female,1,Other,"Below Rs 10,000",Checked,97
+HIS0105129-206,Chennai,65,Male,1,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,105.6666667
+HIS0105129-207,Chennai,80,Female,1,Other,"Below Rs 10,000",Checked,92.33333333
+HIS0105129-208,Chennai,70,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,86.33333333
+HIS0105129-209,Chennai,61,Male,2,Skilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0105129-210,Chennai,66,Male,2,Skilled labour,"Below Rs 10,000",Checked,99
+HIS0105129-211,Chennai,62,Male,1,Service/Salaried,"Below Rs 10,000",Checked,73
+HIS0105129-212,Chennai,45,Male,3,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0105129-213,Chennai,62,Female,0,Unemployed,"Below Rs 10,000",Checked,79.66666667
+HIS0105129-214,Chennai,40,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0105129-215,Chennai,56,Female,1,Agriculture,"Below Rs 10,000",Checked,72
+HIS0103129-216,Chennai,53,Male,4,Service/Salaried,"Below Rs 10,000",Checked,93.33333333
+HIS0103129-217,Chennai,55,Female,4,Service/Salaried,"Below Rs 10,000",Checked,80
+HIS0103129-218,Chennai,63,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,73.66666667
+HIS0103129-219,Chennai,58,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,71.66666667
+HIS0103129-220,Chennai,55,Female,3,Skilled labour,"Below Rs 10,000",Checked,69.33333333
+HIS0103129-221,Chennai,35,Female,2,Skilled labour,"Below Rs 10,000",Checked,80.66666667
+HIS0103129-222,Chennai,48,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,91
+HIS0103129-223,Chennai,55,Female,1,Service/Salaried,"Below Rs 10,000",Checked,89
+HIS0103129-224,Chennai,65,Female,2,Unemployed,"Below Rs 10,000",Checked,73.66666667
+HIS0103129-225,Chennai,48,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,78.66666667
+HIS0110129-226,Chennai,48,Female,2,Service/Salaried,"Below Rs 10,000",Checked,66.33333333
+HIS0110129-227,Chennai,67,Male,2,Skilled labour,"Below Rs 10,000",Checked,79.33333333
+HIS0110129-228,Chennai,72,Female,1,Other,"Below Rs 10,000",Checked,120.3333333
+HIS0110129-229,Chennai,42,Female,3,Service/Salaried,"Below Rs 10,000",Checked,75
+HIS0105129-230,Chennai,60,Female,4,Unemployed,"Rs 10,000 - Rs 20,000",Checked,79.33333333
+HIS0105129-231,Chennai,49,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,81.66666667
+HIS0105129-232,Chennai,65,Female,1,Unemployed,"Below Rs 10,000",Checked,68.66666667
+HIS0105129-233,Chennai,48,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,72.33333333
+HIS0105129-234,Chennai,38,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,90.66666667
+HIS0105129-235,Chennai,38,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,75
+HIS0103129-236,Chennai,86,Female,5,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,71
+HIS0103129-237,Chennai,49,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,83.66666667
+HIS0103129-238,Chennai,54,Female,1,Skilled labour,"Below Rs 10,000",Checked,103.6666667
+HIS0103129-239,Chennai,55,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,105.3333333
+HIS0103129-240,Chennai,50,Female,1,Service/Salaried,"Below Rs 10,000",Checked,64.33333333
+HIS0103129-241,Chennai,45,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,87
+HIS0103129-242,Chennai,55,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,60.33333333
+HIS0105129-243,Chennai,34,Female,7,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,80.66666667
+HIS0105129-244,Chennai,58,Female,0,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,94
+HIS0105129-245,Chennai,64,Male,2,Skilled labour,"Below Rs 10,000",Checked,99.33333333
+HIS0105129-246,Chennai,50,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,89.33333333
+HIS0105129-247,Chennai,75,Female,0,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,77.33333333
+HIS0105129-248,Chennai,48,Female,6,Skilled labour,"Below Rs 10,000",Checked,82
+HIS0105129-249,Chennai,62,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,77.33333333
+HIS0103129-250,Chennai,60,Female,1,Skilled labour,"Below Rs 10,000",Checked,77
+HIS0103129-251,Chennai,53,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,95.66666667
+HIS0103129-252,Chennai,75,Female,3,Skilled labour,"Below Rs 10,000",Checked,99
+HIS0103129-253,Chennai,45,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,80
+HIS0103129-254,Chennai,70,Female,0,Unskilled labour,Don't know,Checked,67.33333333
+HIS0103129-255,Chennai,69,Male,1,Skilled labour,"Below Rs 10,000",Checked,71.33333333
+HIS0103129-256,Chennai,60,Female,0,Unemployed,Don't know,Checked,104
+HIS0105129-257,Chennai,54,Female,2,Skilled labour,"Below Rs 10,000",Checked,94.66666667
+HIS0105129-258,Chennai,72,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,68.66666667
+HIS0105129-259,Chennai,52,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0105129-260,Chennai,65,Female,0,Skilled labour,"Below Rs 10,000",Checked,85.33333333
+HIS0105129-261,Chennai,55,Female,1,Skilled labour,"Below Rs 10,000",Checked,90.66666667
+HIS0105129-262,Chennai,46,Male,2,Service/Salaried,"Rs 30,001 - Rs 50,000",Checked,82
+HIS0105129-263,Chennai,44,Female,2,Skilled labour,"Below Rs 10,000",Checked,89
+HIS0103129-264,Chennai,60,Female,2,Skilled labour,"Below Rs 10,000",Checked,80.66666667
+HIS0103129-265,Chennai,58,Female,1,Skilled labour,"Below Rs 10,000",Checked,74
+HIS0103129-266,Chennai,44,Female,2,Skilled labour,"Below Rs 10,000",Checked,105.6666667
+HIS0103129-267,Chennai,43,Male,3,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0103129-268,Chennai,53,Male,2,Skilled labour,"Below Rs 10,000",Checked,104
+HIS0103129-269,Chennai,70,Male,0,Unemployed,"Below Rs 10,000",Checked,113
+HIS0103129-270,Chennai,70,Female,3,Skilled labour,"Below Rs 10,000",Checked,76.33333333
+HIS0110129-271,Chennai,49,Female,4,Skilled labour,"Below Rs 10,000",Checked,79.33333333
+HIS0110129-272,Chennai,65,Female,0,Unemployed,"Below Rs 10,000",Checked,75.33333333
+HIS0110129-273,Chennai,36,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,75.33333333
+HIS0110129-274,Chennai,54,Female,4,Skilled labour,"Below Rs 10,000",Checked,82
+HIS0101129-275,Chennai,77,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,80.66666667
+HIS0101129-276,Chennai,55,Female,2,Skilled labour,"Below Rs 10,000",Checked,89
+HIS0101129-277,Chennai,58,Female,3,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,92.33333333
+HIS0101129-278,Chennai,46,Female,1,Skilled labour,"Below Rs 10,000",Checked,80.33333333
+HIS0101129-279,Chennai,65,Female,0,Unemployed,"Below Rs 10,000",Checked,85.33333333
+HIS0101129-280,Chennai,43,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,87.33333333
+HIS0101129-281,Chennai,62,Male,2,Skilled labour,"Below Rs 10,000",Checked,88.66666667
+HIS0102129-282,Chennai,48,Female,1,Skilled labour,"Below Rs 10,000",Checked,74
+HIS0102129-283,Chennai,52,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,99.33333333
+HIS0102129-284,Chennai,31,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,80
+HIS0102129-285,Chennai,65,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,77
+HIS0102129-286,Chennai,70,Male,1,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,72
+HIS0102129-287,Chennai,70,Female,2,Skilled labour,"Below Rs 10,000",Checked,72.66666667
+HIS0102129-288,Chennai,50,Male,0,Skilled labour,"Below Rs 10,000",Unchecked,77.66666667
+HIS0101129-289,Chennai,46,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,83.66666667
+HIS0101129-290,Chennai,46,Male,5,Unskilled labour,"Below Rs 10,000",Checked,96
+HIS0101129-291,Chennai,70,Female,2,Unemployed,"Below Rs 10,000",Checked,66.66666667
+HIS0101129-292,Chennai,42,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0101129-293,Chennai,39,Female,3,Unskilled labour,"Below Rs 10,000",Checked,74
+HIS0101129-294,Chennai,48,Female,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,82
+HIS0101129-295,Chennai,46,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,84.66666667
+HIS0102129-296,Chennai,51,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,91.66666667
+HIS0102129-297,Chennai,65,Male,2,Skilled labour,"Below Rs 10,000",Checked,71
+HIS0102129-298,Chennai,50,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86
+HIS0102129-299,Chennai,55,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,60.33333333
+HIS0102129-300,Chennai,54,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,80.33333333
+HIS0102129-301,Chennai,72,Male,5,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,88
+HIS0102129-302,Chennai,36,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,99.66666667
+HIS0101129-303,Chennai,50,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,86.66666667
+HIS0101129-304,Chennai,53,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,74.66666667
+HIS0101129-305,Chennai,50,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,77
+HIS0101129-306,Chennai,40,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,83.66666667
+HIS0101129-307,Chennai,66,Female,0,Other,"Below Rs 10,000",Checked,79
+HIS0101129-308,Chennai,48,Female,3,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,92
+HIS0101129-309,Chennai,48,Male,6,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,99
+HIS0101129-310,Chennai,42,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,81.66666667
+HIS0101129-311,Chennai,39,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,94.33333333
+HIS0101129-312,Chennai,42,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,118.3333333
+HIS0101129-313,Chennai,56,Female,4,Skilled labour,"Rs 30,001 - Rs 50,000",Checked,80
+HIS0101129-314,Chennai,35,Male,2,Skilled labour,"Rs 30,001 - Rs 50,000",Checked,68
+HIS0101129-315,Chennai,44,Female,4,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,86.66666667
+HIS0101129-316,Chennai,49,Female,3,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,85.66666667
+HIS0101129-317,Chennai,30,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,74
+HIS0101129-318,Chennai,45,Female,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,79
+HIS0104129-319,Chennai,44,Male,1,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,77.66666667
+HIS0104129-320,Chennai,70,Female,0,Unemployed,"Below Rs 10,000",Checked,70
+HIS0104129-321,Chennai,60,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,71.33333333
+HIS0104129-322,Chennai,41,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,93.33333333
+HIS0104129-323,Chennai,72,Female,0,Other,"Below Rs 10,000",Checked,113
+HIS0104129-324,Chennai,80,Male,0,Other,"Below Rs 10,000",Checked,78.66666667
+HIS0104129-325,Chennai,63,Female,1,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,82
+HIS0104129-326,Chennai,40,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,77
+HIS0104129-327,Chennai,60,Female,2,Unskilled labour,"Below Rs 10,000",Checked,74.66666667
+HIS0104129-328,Chennai,46,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,91.66666667
+HIS0104129-329,Chennai,70,Female,0,Other,"Below Rs 10,000",Checked,74.66666667
+HIS0104129-330,Chennai,42,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0104129-331,Chennai,57,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,81.33333333
+HIS0101129-332,Chennai,55,Male,4,Unskilled labour,"Below Rs 10,000",Checked,88.33333333
+HIS0101129-333,Chennai,56,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,87.33333333
+HIS0101129-334,Chennai,59,Female,5,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,95
+HIS0101129-335,Chennai,75,Female,5,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,96.66666667
+HIS0101129-336,Chennai,72,Female,0,Unemployed,"Below Rs 10,000",Checked,71.66666667
+HIS0101129-337,Chennai,41,Female,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,79.33333333
+HIS0101129-338,Chennai,69,Female,0,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0101129-339,Chennai,73,Male,1,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,82
+HIS0101129-340,Chennai,52,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0101129-341,Chennai,78,Male,3,Unemployed,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0104129-342,Chennai,37,Female,1,Unskilled labour,"Below Rs 10,000",Checked,77.33333333
+HIS0104129-343,Chennai,75,Male,0,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,80.33333333
+HIS0104129-344,Chennai,58,Male,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,80
+HIS0104129-345,Chennai,65,Female,3,Unemployed,"Below Rs 10,000",Checked,92
+HIS0104129-346,Chennai,30,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,74
+HIS0104129-347,Chennai,62,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0104129-348,Chennai,53,Female,2,Unemployed,"Below Rs 10,000",Checked,78
+HIS0104129-349,Chennai,68,Male,3,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,88.33333333
+HIS0104129-350,Chennai,40,Female,2,Unskilled labour,"Below Rs 10,000",Checked,85.33333333
+HIS0104129-351,Chennai,78,Female,0,Unemployed,"Below Rs 10,000",Checked,76.66666667
+HIS0104129-352,Chennai,62,Female,2,Unemployed,"Below Rs 10,000",Checked,78
+HIS0104129-353,Chennai,40,Female,2,Unskilled labour,"Below Rs 10,000",Checked,90.66666667
+HIS0104129-354,Chennai,38,Female,2,Unskilled labour,"Below Rs 10,000",Checked,68.66666667
+HIS0106129-355,Chennai,60,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,66.66666667
+HIS0106129-356,Chennai,34,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0106129-357,Chennai,65,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,81.66666667
+HIS0106129-358,Chennai,70,Female,9,Other,"Below Rs 10,000",Checked,62.33333333
+HIS0106129-359,Chennai,62,Female,0,Other,"Below Rs 10,000",Checked,53.33333333
+HIS0106129-360,Chennai,58,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,64
+HIS0106129-361,Chennai,65,Female,0,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,103
+HIS0106129-362,Chennai,52,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,87
+HIS0106129-363,Chennai,54,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,72.66666667
+HIS0106129-364,Chennai,32,Male,2,Service/Salaried,"Below Rs 10,000",Checked,77
+HIS0106129-365,Chennai,60,Female,1,Service/Salaried,"Below Rs 10,000",Checked,92.66666667
+HIS0106129-366,Chennai,38,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0106129-367,Chennai,72,Male,0,Service/Salaried,"Below Rs 10,000",Checked,81
+HIS0106129-368,Chennai,53,Male,5,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,87.33333333
+HIS0106129-369,Chennai,59,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,68.33333333
+HIS0106129-370,Chennai,49,Male,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,88
+HIS0106129-371,Chennai,54,Female,2,Skilled labour,"Rs 20,001 - Rs 30,000",Checked,72
+HIS0106129-372,Chennai,34,Male,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,81.33333333
+HIS0106129-373,Chennai,40,Male,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,75.66666667
+HIS0106129-374,Chennai,62,Female,1,Unemployed,"Below Rs 10,000",Checked,78
+HIS0106129-375,Chennai,32,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,80.66666667
+HIS0106129-376,Chennai,44,Female,2,Unskilled labour,"Below Rs 10,000",Checked,87.33333333
+HIS0106129-377,Chennai,46,Female,4,Unskilled labour,"Below Rs 10,000",Checked,84
+HIS0106129-378,Chennai,47,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76
+HIS0106129-379,Chennai,57,Female,0,Unemployed,"Below Rs 10,000",Checked,74
+HIS0106129-380,Chennai,34,Female,2,Unskilled labour,"Below Rs 10,000",Checked,66.66666667
+HIS0106129-381,Chennai,55,Female,1,Unemployed,"Below Rs 10,000",Checked,72
+HIS0106129-382,Chennai,54,Female,3,Unskilled labour,"Below Rs 10,000",Checked,86
+HIS0106129-383,Chennai,74,Female,0,Unemployed,"Below Rs 10,000",Checked,61.66666667
+HIS0106129-384,Chennai,47,Male,1,Unskilled labour,"Below Rs 10,000",Checked,96.66666667
+HIS0106129-385,Chennai,65,Female,0,Unemployed,"Below Rs 10,000",Checked,84.66666667
+HIS0106129-386,Chennai,48,Female,2,Unskilled labour,"Below Rs 10,000",Checked,84.66666667
+HIS0106129-387,Chennai,74,Female,0,Unemployed,"Below Rs 10,000",Checked,82.33333333
+HIS0106129-388,Chennai,60,Female,2,Unskilled labour,"Below Rs 10,000",Checked,86
+HIS0106129-389,Chennai,50,Female,1,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,77.33333333
+HIS0106129-390,Chennai,58,Female,2,Unskilled labour,"Below Rs 10,000",Checked,78.66666667
+HIS0106129-391,Chennai,50,Female,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,74.66666667
+HIS0106129-392,Chennai,49,Female,2,Unemployed,"Rs 10,000 - Rs 20,000",Checked,94.66666667
+HIS0106129-393,Chennai,36,Female,2,Unskilled labour,"Below Rs 10,000",Checked,98
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0104129-519,Chennai,60,Male,2,Unemployed,"Below Rs 10,000",Checked,86
+HIS0104129-520,Chennai,56,Male,2,Skilled labour,"Below Rs 10,000",Checked,78.33333333
+HIS0104129-521,Chennai,45,Female,3,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,75.33333333
+HIS0104129-522,Chennai,44,Female,2,Unskilled labour,"Below Rs 10,000",Checked,84
+HIS0104129-523,Chennai,56,Female,2,Unemployed,"Rs 10,000 - Rs 20,000",Checked,86
+HIS0104129-524,Chennai,46,Male,0,Unemployed,"Rs 10,000 - Rs 20,000",Checked,80.66666667
+HIS0104129-525,Chennai,36,Male,2,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,87.66666667
+HIS0104129-526,Chennai,38,Female,2,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,72
+HIS0104129-527,Chennai,56,Male,2,Unemployed,"Rs 10,000 - Rs 20,000",Checked,68
+HIS0104129-528,Chennai,56,Female,1,Unemployed,"Below Rs 10,000",Checked,96.66666667
+HIS0309130-1,Manaparai,44,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0309130-2,Manaparai,42,Female,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0309130-3,Manaparai,40,Female,4,Agriculture,"Below Rs 10,000",Unchecked,70
+HIS0309130-4,Manaparai,33,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0309130-5,Manaparai,38,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0309130-6,Manaparai,42,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0309130-7,Manaparai,35,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,66.66666667
+HIS0309130-8,Manaparai,32,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0309130-9,Manaparai,42,Female,4,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0309130-10,Manaparai,60,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0309130-11,Manaparai,49,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0313130-12,Manaparai,34,Male,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0313130-13,Manaparai,33,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0313130-14,Manaparai,50,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,66.66666667
+HIS0313130-15,Manaparai,32,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Checked,63.33333333
+HIS0313130-16,Manaparai,50,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0313130-17,Manaparai,45,Female,3,Agriculture,"Below Rs 10,000",Unchecked,70
+HIS0313130-18,Manaparai,37,Female,2,Agriculture,"Below Rs 10,000",Unchecked,66.66666667
+HIS0313130-19,Manaparai,39,Female,2,Agriculture,"Below Rs 10,000",Unchecked,66.66666667
+HIS0313130-20,Manaparai,60,Female,0,Agriculture,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0313130-21,Manaparai,60,Female,1,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0313130-22,Manaparai,37,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,60
+HIS0313130-23,Manaparai,48,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0313130-24,Manaparai,38,Female,2,Business/Trade,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0313130-25,Manaparai,48,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0313130-26,Manaparai,46,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0313130-27,Manaparai,54,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0313130-28,Manaparai,82,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0313130-29,Manaparai,34,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,66.66666667
+HIS0313130-30,Manaparai,57,Male,1,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0313130-31,Manaparai,43,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0313130-32,Manaparai,45,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0313130-33,Manaparai,62,Male,2,Agriculture,"Below Rs 10,000",Unchecked,63.33333333
+HIS0313130-34,Manaparai,47,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,66.66666667
+HIS0313130-35,Manaparai,38,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0313130-36,Manaparai,43,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0313130-37,Manaparai,52,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0313130-38,Manaparai,52,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0313130-39,Manaparai,75,Female,0,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0313130-40,Manaparai,56,Female,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0313130-41,Manaparai,60,Female,0,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0313130-42,Manaparai,70,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0313130-43,Manaparai,65,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0313130-44,Manaparai,51,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0313130-45,Manaparai,62,Male,1,Service/Salaried,"Below Rs 10,000",Checked,60
+HIS0310130-46,Manaparai,80,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0310130-47,Manaparai,48,Female,2,Service/Salaried,"Below Rs 10,000",Checked,80
+HIS0310130-48,Manaparai,65,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0310130-49,Manaparai,65,Female,1,Service/Salaried,"Below Rs 10,000",Checked,60
+HIS0310130-50,Manaparai,43,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,80
+HIS0310130-51,Manaparai,52,Female,1,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0310130-52,Manaparai,70,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0310130-53,Manaparai,70,Male,2,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0310130-54,Manaparai,52,Male,2,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0310130-55,Manaparai,39,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0308130-56,Manaparai,58,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,80
+HIS0308130-57,Manaparai,48,Male,3,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0308130-58,Manaparai,60,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0308130-59,Manaparai,41,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0308130-60,Manaparai,32,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,60
+HIS0313130-61,Manaparai,72,Male,0,Business/Trade,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0310130-62,Manaparai,50,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0310130-63,Manaparai,53,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0310130-64,Manaparai,47,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0310130-65,Manaparai,58,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,90
+HIS0310130-66,Manaparai,65,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,86.66666667
+HIS0310130-67,Manaparai,53,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0310130-68,Manaparai,34,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0310130-69,Manaparai,55,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0310130-70,Manaparai,34,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0310130-71,Manaparai,34,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0310130-72,Manaparai,47,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0310130-73,Manaparai,30,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0310130-74,Manaparai,57,Male,4,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0310130-75,Manaparai,55,Male,4,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0310130-76,Manaparai,33,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0310130-77,Manaparai,65,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,80
+HIS0310130-78,Manaparai,60,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0310130-79,Manaparai,55,Female,2,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0310130-80,Manaparai,55,Female,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0310130-81,Manaparai,50,Male,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0310130-82,Manaparai,36,Female,2,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0310130-83,Manaparai,40,Female,3,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0310130-84,Manaparai,50,Female,3,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0310130-85,Manaparai,52,Female,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0310130-86,Manaparai,36,Female,2,Service/Salaried,"Below Rs 10,000",Checked,70
+HIS0308130-87,Manaparai,46,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0308130-88,Manaparai,55,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0308130-89,Manaparai,40,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0308130-90,Manaparai,55,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0308130-91,Manaparai,32,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0308130-92,Manaparai,45,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0308130-93,Manaparai,35,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0308130-94,Manaparai,59,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,86.66666667
+HIS0308130-95,Manaparai,37,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0308130-96,Manaparai,36,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0308130-97,Manaparai,42,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0308130-98,Manaparai,30,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0308130-99,Manaparai,44,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0308130-100,Manaparai,57,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,86.66666667
+HIS0308130-101,Manaparai,47,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0308130-102,Manaparai,34,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0308130-103,Manaparai,38,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0308130-104,Manaparai,57,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,63.33333333
+HIS0308130-105,Manaparai,70,Female,4,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0308130-106,Manaparai,63,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0308130-107,Manaparai,65,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0308130-108,Manaparai,55,Male,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0308130-109,Manaparai,64,Female,0,Agriculture,"Below Rs 10,000",Checked,90
+HIS0308130-110,Manaparai,67,Female,0,Agriculture,"Below Rs 10,000",Checked,70
+HIS0308130-111,Manaparai,37,Male,2,Agriculture,"Below Rs 10,000",Checked,66.66666667
+HIS0308130-112,Manaparai,55,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,60
+HIS0308130-113,Manaparai,52,Female,1,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0308130-114,Manaparai,50,Male,2,Agriculture,"Below Rs 10,000",Checked,66.66666667
+HIS0308130-115,Manaparai,34,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,63.33333333
+HIS0308130-116,Manaparai,46,Male,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0314130-117,Manaparai,62,Male,3,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0314130-118,Manaparai,39,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0314130-119,Manaparai,49,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0314130-120,Manaparai,44,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0314130-121,Manaparai,45,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0314130-122,Manaparai,41,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0314130-123,Manaparai,65,Female,1,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0314130-124,Manaparai,60,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0314130-125,Manaparai,38,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0314130-126,Manaparai,60,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0314130-127,Manaparai,35,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0314130-128,Manaparai,45,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0314130-129,Manaparai,58,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0314130-130,Manaparai,46,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,80
+HIS0314130-131,Manaparai,69,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0314130-132,Manaparai,35,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0314130-133,Manaparai,46,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0311130-134,Manaparai,35,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0311130-135,Manaparai,60,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0311130-136,Manaparai,60,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0311130-137,Manaparai,61,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0311130-138,Manaparai,50,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0311130-139,Manaparai,60,Male,1,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0311130-140,Manaparai,82,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0311130-141,Manaparai,62,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0311130-142,Manaparai,56,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0311130-143,Manaparai,57,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0311130-144,Manaparai,71,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0311130-145,Manaparai,53,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0311130-146,Manaparai,58,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0311130-147,Manaparai,52,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0311130-148,Manaparai,57,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0311130-149,Manaparai,77,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0311130-150,Manaparai,34,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0311130-151,Manaparai,49,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0303130-152,Manaparai,45,Male,2,Service/Salaried,"Below Rs 10,000",Checked,83.33333333
+HIS0303130-153,Manaparai,60,Male,0,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0303130-154,Manaparai,40,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0303130-155,Manaparai,56,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0303130-156,Manaparai,56,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0303130-157,Manaparai,34,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0314130-158,Manaparai,65,Female,0,Agriculture,"Below Rs 10,000",Checked,93.33333333
+HIS0314130-159,Manaparai,38,Male,3,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0314130-160,Manaparai,68,Male,2,Agriculture,"Below Rs 10,000",Checked,66.66666667
+HIS0314130-161,Manaparai,58,Male,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0314130-162,Manaparai,59,Male,6,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0314130-163,Manaparai,60,Female,0,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0314130-164,Manaparai,44,Female,4,Agriculture,"Below Rs 10,000",Checked,66.66666667
+HIS0314130-165,Manaparai,34,Male,2,Service/Salaried,"Below Rs 10,000",Checked,80
+HIS0314130-166,Manaparai,64,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,63.33333333
+HIS0314130-167,Manaparai,64,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,100
+HIS0314130-168,Manaparai,45,Male,2,Agriculture,"Below Rs 10,000",Checked,103.3333333
+HIS0314130-169,Manaparai,64,Female,1,Agriculture,"Below Rs 10,000",Checked,60
+HIS0314130-170,Manaparai,53,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,63
+HIS0314130-171,Manaparai,70,Female,0,Service/Salaried,"Below Rs 10,000",Checked,103.3333333
+HIS0314130-172,Manaparai,65,Male,1,Agriculture,"Below Rs 10,000",Checked,63.33333333
+HIS0314130-173,Manaparai,55,Female,2,Agriculture,"Below Rs 10,000",Checked,80
+HIS0314130-174,Manaparai,37,Male,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0314130-175,Manaparai,50,Male,1,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0311130-176,Manaparai,36,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0311130-177,Manaparai,45,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Checked,63.33333333
+HIS0311130-178,Manaparai,40,Male,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0311130-179,Manaparai,42,Male,3,Service/Salaried,"Below Rs 10,000",Checked,73.33333333
+HIS0311130-180,Manaparai,40,Male,2,Agriculture,"Below Rs 10,000",Checked,66.66666667
+HIS0311130-181,Manaparai,66,Male,1,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0311130-182,Manaparai,72,Female,0,Service/Salaried,"Below Rs 10,000",Checked,90
+HIS0311130-183,Manaparai,38,Male,2,Agriculture,"Below Rs 10,000",Checked,63.33333333
+HIS0311130-184,Manaparai,70,Male,2,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0311130-185,Manaparai,45,Male,4,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0311130-186,Manaparai,50,Female,1,Agriculture,"Below Rs 10,000",Checked,70
+HIS0311130-187,Manaparai,66,Male,0,Agriculture,"Below Rs 10,000",Checked,80
+HIS0311130-188,Manaparai,63,Female,0,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0311130-189,Manaparai,33,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,63.33333333
+HIS0311130-190,Manaparai,34,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0311130-191,Manaparai,32,Male,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0311130-192,Manaparai,45,Female,2,Service/Salaried,"Below Rs 10,000",Checked,73.33333333
+HIS0302130-193,Manaparai,31,Male,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0302130-194,Manaparai,32,Female,2,Agriculture,"Below Rs 10,000",Checked,80
+HIS0302130-195,Manaparai,34,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0302130-196,Manaparai,52,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0302130-197,Manaparai,42,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,80
+HIS0302130-198,Manaparai,42,Female,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0302130-199,Manaparai,46,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0302130-200,Manaparai,36,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Checked,66.66666667
+HIS0302130-201,Manaparai,44,Female,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0302130-202,Manaparai,37,Female,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0303130-203,Manaparai,33,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0303130-204,Manaparai,45,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,60
+HIS0303130-205,Manaparai,42,Male,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0303130-206,Manaparai,65,Female,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0303130-207,Manaparai,60,Male,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0303130-208,Manaparai,56,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0303130-209,Manaparai,32,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Checked,80
+HIS0303130-210,Manaparai,70,Female,0,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0303130-211,Manaparai,38,Female,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0303130-212,Manaparai,65,Male,1,Agriculture,"Below Rs 10,000",Checked,80
+HIS0303130-213,Manaparai,32,Male,4,Agriculture,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0303130-214,Manaparai,60,Female,4,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,96.66666667
+HIS0303130-215,Manaparai,42,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0303130-216,Manaparai,70,Female,0,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0303130-217,Manaparai,43,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,63.33333333
+HIS0303130-218,Manaparai,80,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0303130-219,Manaparai,80,Female,3,Agriculture,"Below Rs 10,000",Checked,90
+HIS0302130-220,Manaparai,70,Male,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0302130-221,Manaparai,36,Female,4,Agriculture,"Below Rs 10,000",Checked,70
+HIS0302130-222,Manaparai,50,Female,2,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,66.66666667
+HIS0302130-223,Manaparai,50,Female,2,Agriculture,"Below Rs 10,000",Checked,80
+HIS0302130-224,Manaparai,60,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0302130-225,Manaparai,46,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0302130-226,Manaparai,55,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0302130-227,Manaparai,40,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0302130-228,Manaparai,50,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0302130-229,Manaparai,70,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0302130-230,Manaparai,72,Male,0,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0302130-231,Manaparai,40,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0302130-232,Manaparai,39,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0302130-233,Manaparai,35,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0302130-234,Manaparai,50,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0302130-235,Manaparai,55,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0302130-236,Manaparai,52,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0302130-237,Manaparai,55,Male,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0302130-238,Manaparai,60,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0302130-239,Manaparai,42,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0303130-240,Manaparai,53,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0303130-241,Manaparai,60,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0303130-242,Manaparai,60,Female,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0303130-243,Manaparai,45,Male,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0303130-244,Manaparai,70,Male,5,Service/Salaried,"Rs 20,001 - Rs 30,000",Unchecked,86.66666667
+HIS0303130-245,Manaparai,56,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0303130-246,Manaparai,65,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0303130-247,Manaparai,33,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0303130-248,Manaparai,49,Male,6,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0303130-249,Manaparai,43,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0303130-250,Manaparai,53,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0303130-251,Manaparai,59,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0302130-252,Manaparai,75,Male,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0302130-253,Manaparai,40,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0302130-254,Manaparai,35,Female,2,Service/Salaried,"Below Rs 10,000",Unchecked,86.66666667
+HIS0302130-255,Manaparai,55,Male,3,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0302130-256,Manaparai,50,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0304130-257,Manaparai,47,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0304130-258,Manaparai,55,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0304130-259,Manaparai,36,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0304130-260,Manaparai,31,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0304130-261,Manaparai,45,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0304130-262,Manaparai,70,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,80
+HIS0304130-263,Manaparai,43,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0304130-264,Manaparai,59,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0304130-265,Manaparai,49,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0304130-266,Manaparai,54,Male,4,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0304130-267,Manaparai,45,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0304130-268,Manaparai,45,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0304130-269,Manaparai,42,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,66.66666667
+HIS0304130-270,Manaparai,60,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0304130-271,Manaparai,44,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,66.66666667
+HIS0304130-272,Manaparai,34,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0304130-273,Manaparai,57,Male,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0304130-274,Manaparai,58,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0304130-275,Manaparai,40,Female,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0304130-276,Manaparai,56,Female,1,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0304130-277,Manaparai,39,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,60
+HIS0304130-278,Manaparai,40,Male,2,Agriculture,"Below Rs 10,000",Checked,60
+HIS0304130-279,Manaparai,55,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0304130-280,Manaparai,55,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0304130-281,Manaparai,80,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0304130-282,Manaparai,72,Male,2,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0304130-283,Manaparai,50,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0304130-284,Manaparai,40,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0304130-285,Manaparai,48,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0304130-286,Manaparai,60,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0304130-287,Manaparai,63,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0304130-288,Manaparai,40,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0304130-289,Manaparai,50,Male,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,83.33333333
+HIS0304130-290,Manaparai,70,Male,1,Service/Salaried,"Below Rs 10,000",Unchecked,80
+HIS0304130-291,Manaparai,55,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0309130-292,Manaparai,38,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0309130-293,Manaparai,58,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0309130-294,Manaparai,69,Male,4,Business/Trade,"Rs 20,001 - Rs 30,000",Unchecked,86.66666667
+HIS0309130-295,Manaparai,33,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0309130-296,Manaparai,48,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0309130-297,Manaparai,35,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0309130-298,Manaparai,65,Female,3,Business/Trade,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0309130-299,Manaparai,31,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0309130-300,Manaparai,57,Male,6,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0309130-301,Manaparai,53,Female,3,Business/Trade,"Rs 20,001 - Rs 30,000",Checked,83.33333333
+HIS0309130-302,Manaparai,55,Male,4,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0309130-303,Manaparai,45,Female,4,Service/Salaried,"Below Rs 10,000",Checked,83.33333333
+HIS0309130-304,Manaparai,42,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0309130-305,Manaparai,69,Female,0,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0309130-306,Manaparai,65,Female,0,Agriculture,"Below Rs 10,000",Checked,66.66666667
+HIS0309130-307,Manaparai,43,Female,0,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0309130-308,Manaparai,65,Female,1,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0309130-309,Manaparai,72,Male,0,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0309130-310,Manaparai,55,Female,2,Other,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0309130-311,Manaparai,70,Male,3,Agriculture,"Below Rs 10,000",Checked,70
+HIS0309130-312,Manaparai,49,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0309130-313,Manaparai,36,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0309130-314,Manaparai,33,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,63.33333333
+HIS0309130-315,Manaparai,52,Female,1,Business/Trade,"Below Rs 10,000",Checked,86.66666667
+HIS0312130-316,Manaparai,41,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,80
+HIS0312130-317,Manaparai,47,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,80
+HIS0312130-318,Manaparai,48,Male,4,Business/Trade,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0312130-319,Manaparai,58,Female,3,Agriculture,"Below Rs 10,000",Unchecked,86.66666667
+HIS0312130-320,Manaparai,50,Female,3,Business/Trade,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0312130-321,Manaparai,42,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,60
+HIS0312130-322,Manaparai,55,Female,1,Agriculture,"Below Rs 10,000",Checked,90
+HIS0312130-323,Manaparai,47,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0312130-324,Manaparai,45,Female,3,Service/Salaried,"Below Rs 10,000",Checked,70
+HIS0312130-325,Manaparai,59,Female,1,Agriculture,"Below Rs 10,000",Checked,90
+HIS0312130-326,Manaparai,55,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0312130-327,Manaparai,52,Male,6,Service/Salaried,"Rs 20,001 - Rs 30,000",Checked,90
+HIS0312130-328,Manaparai,40,Female,2,Agriculture,"Below Rs 10,000",Checked,66.66666667
+HIS0312130-329,Manaparai,52,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0312130-330,Manaparai,45,Male,3,Agriculture,"Below Rs 10,000",Unchecked,70
+HIS0312130-331,Manaparai,62,Female,0,Service/Salaried,"Below Rs 10,000",Unchecked,90
+HIS0312130-332,Manaparai,55,Female,2,Service/Salaried,"Below Rs 10,000",Checked,80
+HIS0312130-333,Manaparai,45,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0312130-334,Manaparai,30,Female,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0312130-335,Manaparai,30,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0312130-336,Manaparai,50,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0312130-337,Manaparai,44,Female,4,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0312130-338,Manaparai,45,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0312130-339,Manaparai,53,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0312130-340,Manaparai,33,Female,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0312130-341,Manaparai,64,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0312130-342,Manaparai,41,Male,4,Skilled labour,"Rs 30,001 - Rs 50,000",Unchecked,83.33333333
+HIS0312130-343,Manaparai,40,Female,5,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0312130-344,Manaparai,40,Male,1,Service/Salaried,"Below Rs 10,000",Unchecked,83.33333333
+HIS0312130-345,Manaparai,53,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0312130-346,Manaparai,68,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0312130-347,Manaparai,40,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0312130-348,Manaparai,33,Male,6,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0312130-349,Manaparai,52,Male,5,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,83.33333333
+HIS0312130-350,Manaparai,57,Female,1,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,80
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0208131-1,Ramanadapuram,54,Female,4,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-2,Ramanadapuram,60,Male,3,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-3,Ramanadapuram,70,Female,4,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-4,Ramanadapuram,62,Male,1,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0208131-5,Ramanadapuram,70,Male,1,Service/Salaried,"Below Rs 10,000",Checked,90
+HIS0208131-6,Ramanadapuram,35,Female,3,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-7,Ramanadapuram,60,Female,5,Agriculture,"Below Rs 10,000",Checked,70
+HIS0208131-8,Ramanadapuram,60,Male,4,Agriculture,"Below Rs 10,000",Checked,90
+HIS0208131-19,Ramanadapuram,53,Male,5,Agriculture,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0208131-20,Ramanadapuram,52,Male,3,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0208131-21,Ramanadapuram,55,Male,2,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-22,Ramanadapuram,53,Male,2,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0208131-23,Ramanadapuram,56,Female,2,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0208131-24,Ramanadapuram,65,Male,3,Agriculture,"Below Rs 10,000",Checked,90
+HIS0208131-25,Ramanadapuram,50,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,80
+HIS0208131-26,Ramanadapuram,57,Male,4,Skilled labour,"Below Rs 10,000",Unchecked,73.33333333
+HIS0208131-27,Ramanadapuram,34,Male,4,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0208131-28,Ramanadapuram,34,Female,3,Skilled labour,"Below Rs 10,000",Checked,70
+HIS0208131-29,Ramanadapuram,48,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0208131-30,Ramanadapuram,45,Male,4,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-31,Ramanadapuram,70,Female,1,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0208131-32,Ramanadapuram,37,Male,2,Skilled labour,"Below Rs 10,000",Unchecked,70
+HIS0208131-33,Ramanadapuram,46,Female,4,Unemployed,"Below Rs 10,000",Unchecked,90
+HIS0208131-34,Ramanadapuram,70,Male,1,Agriculture,"Below Rs 10,000",Checked,90
+HIS0208131-35,Ramanadapuram,68,Female,0,Unemployed,"Below Rs 10,000",Checked,70
+HIS0208131-36,Ramanadapuram,43,Male,3,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-37,Ramanadapuram,35,Male,2,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0208131-38,Ramanadapuram,49,Male,4,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0208131-39,Ramanadapuram,30,Female,3,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-40,Ramanadapuram,50,Male,3,Skilled labour,"Below Rs 10,000",Unchecked,86.66666667
+HIS0208131-41,Ramanadapuram,48,Female,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0208131-42,Ramanadapuram,45,Female,3,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0208131-43,Ramanadapuram,35,Male,2,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0208131-44,Ramanadapuram,50,Female,8,Agriculture,"Rs 10,000 - Rs 20,000",Checked,80
+,,,,,,,,
+HIS0208131-45,Ramanadapuram,31,Male,2,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0207131-46,Ramanadapuram,60,Female,1,Unskilled labour,"Below Rs 10,000",Checked,90
+HIS0207131-47,Ramanadapuram,35,Female,3,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0207131-48,Ramanadapuram,74,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0207131-49,Ramanadapuram,50,Male,4,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0207131-50,Ramanadapuram,60,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0207131-51,Ramanadapuram,70,Female,0,Unemployed,Did not provide,Checked,90
+HIS0207131-52,Ramanadapuram,45,Male,2,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0207131-53,Ramanadapuram,65,Male,0,Unemployed,"Below Rs 10,000",Unchecked,90
+HIS0207131-54,Ramanadapuram,46,Male,1,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0207131-55,Ramanadapuram,54,Female,1,Agriculture,"Below Rs 10,000",Checked,66.66666667
+HIS0207131-56,Ramanadapuram,48,Female,4,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0207131-57,Ramanadapuram,38,Female,3,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0207131-58,Ramanadapuram,38,Female,2,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0207131-59,Ramanadapuram,42,Female,1,Agriculture,"Below Rs 10,000",Checked,70
+HIS0207131-60,Ramanadapuram,39,Female,1,Skilled labour,"Below Rs 10,000",Checked,70
+HIS0207131-61,Ramanadapuram,40,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0207131-62,Ramanadapuram,75,Male,1,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0207131-63,Ramanadapuram,75,Male,2,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0207131-64,Ramanadapuram,57,Male,4,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0207131-65,Ramanadapuram,60,Male,1,Agriculture,"Below Rs 10,000",Checked,70
+HIS0207131-66,Ramanadapuram,78,Female,0,Unemployed,"Below Rs 10,000",Checked,90
+HIS0207131-67,Ramanadapuram,70,Female,0,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0207131-68,Ramanadapuram,75,Female,0,Unemployed,Did not provide,Unchecked,86.66666667
+HIS0207131-69,Ramanadapuram,60,Female,1,Unemployed,Did not provide,Unchecked,80
+HIS0207131-70,Ramanadapuram,90,Female,0,Unemployed,"Below Rs 10,000",Checked,86.66666667
+HIS0207131-71,Ramanadapuram,52,Female,4,Skilled labour,"Below Rs 10,000",Checked,70
+HIS0207131-72,Ramanadapuram,67,Male,2,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0207131-73,Ramanadapuram,68,Male,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0207131-74,Ramanadapuram,62,Male,4,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0207131-75,Ramanadapuram,42,Male,2,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0207131-76,Ramanadapuram,52,Male,5,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0207131-77,Ramanadapuram,43,Male,3,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0207131-78,Ramanadapuram,50,Male,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0207131-79,Ramanadapuram,67,Male,0,Skilled labour,"Below Rs 10,000",Checked,90
+HIS0207131-80,Ramanadapuram,40,Female,3,Skilled labour,"Below Rs 10,000",Unchecked,90
+HIS0212131-81,Ramanadapuram,57,Male,1,Agriculture,"Below Rs 10,000",Unchecked,66.66666667
+HIS0212131-82,Ramanadapuram,74,Male,0,Unemployed,"Below Rs 10,000",Checked,70
+HIS0212131-83,Ramanadapuram,64,Male,1,Agriculture,"Below Rs 10,000",Unchecked,70
+HIS0212131-84,Ramanadapuram,77,Male,0,Unemployed,Did not provide,Checked,70
+HIS0212131-85,Ramanadapuram,60,Female,3,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0212131-86,Ramanadapuram,45,Female,3,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0212131-87,Ramanadapuram,75,Female,2,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0212131-88,Ramanadapuram,49,Male,3,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0212131-89,Ramanadapuram,73,Male,0,Skilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0212131-90,Ramanadapuram,60,Male,2,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0212131-91,Ramanadapuram,58,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0212131-92,Ramanadapuram,47,Female,4,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0212131-93,Ramanadapuram,58,Female,1,Skilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0212131-94,Ramanadapuram,65,Female,0,Unemployed,"Below Rs 10,000",Checked,83.33333333
+HIS0212131-95,Ramanadapuram,60,Male,2,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0212131-96,Ramanadapuram,42,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0212131-97,Ramanadapuram,44,Female,4,Agriculture,"Below Rs 10,000",Checked,70
+HIS0212131-98,Ramanadapuram,69,Male,0,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0212131-99,Ramanadapuram,60,Male,1,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0212131-100,Ramanadapuram,65,Male,4,Skilled labour,"Below Rs 10,000",Unchecked,72.66666667
+HIS0212131-101,Ramanadapuram,51,Male,3,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0212131-102,Ramanadapuram,58,Female,0,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0212131-103,Ramanadapuram,52,Female,3,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0212131-104,Ramanadapuram,41,Male,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0212131-105,Ramanadapuram,45,Male,3,Agriculture,"Below Rs 10,000",Unchecked,73.33333333
+HIS0212131-106,Ramanadapuram,53,Female,1,Unemployed,Did not provide,Checked,76.66666667
+HIS0212131-107,Ramanadapuram,68,Female,0,Skilled labour,"Below Rs 10,000",Unchecked,70
+HIS0212131-108,Ramanadapuram,50,Female,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0212131-109,Ramanadapuram,46,Female,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0212131-110,Ramanadapuram,38,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,73.33333333
+HIS0212131-111,Ramanadapuram,72,Male,0,Agriculture,"Below Rs 10,000",Checked,80
+HIS0212131-112,Ramanadapuram,32,Male,2,Skilled labour,"Below Rs 10,000",Unchecked,73.33333333
+HIS0212131-113,Ramanadapuram,42,Female,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0212131-114,Ramanadapuram,44,Male,2,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0212131-115,Ramanadapuram,43,Male,2,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0204131-116,Ramanadapuram,50,Female,2,Agriculture,"Below Rs 10,000",Unchecked,80
+HIS0204131-117,Ramanadapuram,54,Male,3,Agriculture,"Below Rs 10,000",Checked,90
+HIS0204131-118,Ramanadapuram,43,Female,4,Skilled labour,"Below Rs 10,000",Unchecked,80
+HIS0204131-119,Ramanadapuram,45,Male,4,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0204131-120,Ramanadapuram,37,Female,4,Agriculture,"Below Rs 10,000",Unchecked,70
+HIS0204131-121,Ramanadapuram,52,Male,4,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0204131-122,Ramanadapuram,60,Male,4,Agriculture,"Below Rs 10,000",Unchecked,70
+HIS0204131-123,Ramanadapuram,66,Female,0,Unskilled labour,"Below Rs 10,000",Unchecked,66.66666667
+HIS0204131-124,Ramanadapuram,63,Female,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0204131-125,Ramanadapuram,50,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,86.66666667
+HIS0204131-126,Ramanadapuram,52,Female,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0204131-127,Ramanadapuram,58,Male,4,Skilled labour,"Below Rs 10,000",Unchecked,70
+HIS0204131-128,Ramanadapuram,52,Female,2,Skilled labour,"Below Rs 10,000",Checked,70
+HIS0204131-129,Ramanadapuram,48,Female,1,Agriculture,"Below Rs 10,000",Unchecked,73.33333333
+HIS0204131-130,Ramanadapuram,45,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,76.66666667
+HIS0204131-131,Ramanadapuram,43,Male,3,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0204131-132,Ramanadapuram,50,Male,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0204131-133,Ramanadapuram,39,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0204131-134,Ramanadapuram,57,Female,2,Service/Salaried,"Below Rs 10,000",Checked,70
+HIS0204131-135,Ramanadapuram,50,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,70
+HIS0204131-136,Ramanadapuram,34,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0204131-137,Ramanadapuram,59,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0204131-138,Ramanadapuram,55,Male,1,Agriculture,"Below Rs 10,000",Checked,90
+HIS0204131-139,Ramanadapuram,52,Female,1,Skilled labour,"Below Rs 10,000",Unchecked,90
+HIS0204131-140,Ramanadapuram,60,Female,1,Skilled labour,"Below Rs 10,000",Checked,90
+HIS0204131-141,Ramanadapuram,53,Female,3,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0204131-142,Ramanadapuram,60,Female,1,Skilled labour,Did not provide,Unchecked,83.33333333
+HIS0204131-143,Ramanadapuram,50,Male,1,Skilled labour,"Below Rs 10,000",Unchecked,83.33333333
+HIS0204131-144,Ramanadapuram,65,Male,1,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0204131-145,Ramanadapuram,47,Male,3,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0204131-146,Ramanadapuram,70,Male,3,Agriculture,"Below Rs 10,000",Checked,90
+HIS0204131-147,Ramanadapuram,56,Male,3,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0204131-148,Ramanadapuram,50,Male,2,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0204131-149,Ramanadapuram,50,Male,1,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0211131-150,Ramanadapuram,48,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,73.33333333
+HIS0211131-151,Ramanadapuram,50,Male,2,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0211131-152,Ramanadapuram,50,Female,5,Skilled labour,"Below Rs 10,000",Checked,90
+HIS0211131-153,Ramanadapuram,41,Female,2,Agriculture,"Below Rs 10,000",Unchecked,66.66666667
+HIS0211131-154,Ramanadapuram,70,Female,1,Unskilled labour,"Below Rs 10,000",Checked,90
+HIS0211131-155,Ramanadapuram,50,Female,3,Unskilled labour,"Below Rs 10,000",Checked,70
+HIS0211131-156,Ramanadapuram,58,Male,2,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0211131-157,Ramanadapuram,50,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,70
+HIS0211131-158,Ramanadapuram,48,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0211131-159,Ramanadapuram,45,Female,3,Service/Salaried,"Below Rs 10,000",Checked,66.66666667
+HIS0211131-160,Ramanadapuram,42,Female,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0211131-161,Ramanadapuram,42,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0211131-162,Ramanadapuram,42,Female,3,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,73.33333333
+HIS0211131-163,Ramanadapuram,75,Female,0,Unemployed,Did not provide,Unchecked,90
+HIS0211131-164,Ramanadapuram,80,Female,0,Unemployed,Did not provide,Checked,90
+HIS0211131-165,Ramanadapuram,55,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0211131-166,Ramanadapuram,60,Male,2,Agriculture,"Below Rs 10,000",Checked,90
+HIS0211131-167,Ramanadapuram,85,Male,0,Unemployed,Did not provide,Checked,66.66666667
+HIS0205131-168,Ramanadapuram,65,Female,0,Unemployed,"Below Rs 10,000",Unchecked,70
+HIS0205131-169,Ramanadapuram,73,Male,0,Unskilled labour,"Below Rs 10,000",Unchecked,70
+HIS0205131-170,Ramanadapuram,35,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0205131-171,Ramanadapuram,55,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0205131-172,Ramanadapuram,44,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0205131-173,Ramanadapuram,72,Male,0,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,90
+HIS0205131-174,Ramanadapuram,32,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0205131-175,Ramanadapuram,60,Male,1,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0205131-176,Ramanadapuram,53,Male,3,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,86.66666667
+HIS0205131-177,Ramanadapuram,58,Female,3,Unskilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0205131-178,Ramanadapuram,57,Male,5,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,73.33333333
+HIS0205131-179,Ramanadapuram,75,Male,0,Unskilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0205131-180,Ramanadapuram,80,Female,0,Unskilled labour,"Below Rs 10,000",Checked,63.33333333
+HIS0205131-181,Ramanadapuram,38,Female,3,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0205131-182,Ramanadapuram,43,Female,2,Other,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0205131-183,Ramanadapuram,65,Male,0,Unskilled labour,"Below Rs 10,000",Checked,90
+HIS0205131-184,Ramanadapuram,65,Female,0,Unskilled labour,"Below Rs 10,000",Unchecked,90
+HIS0205131-185,Ramanadapuram,60,Male,1,Unskilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0214131-186,Ramanadapuram,64,Female,0,Unskilled labour,"Below Rs 10,000",Checked,90
+HIS0214131-187,Ramanadapuram,80,Female,0,Unemployed,Did not provide,Unchecked,90
+HIS0214131-188,Ramanadapuram,38,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0214131-189,Ramanadapuram,39,Female,2,Unskilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0214131-190,Ramanadapuram,38,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0211131-191,Ramanadapuram,48,Male,2,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0211131-192,Ramanadapuram,50,Male,3,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0211131-193,Ramanadapuram,75,Female,2,Agriculture,"Below Rs 10,000",Checked,90
+HIS0211131-194,Ramanadapuram,65,Male,0,Skilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0211131-195,Ramanadapuram,55,Female,4,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0211131-196,Ramanadapuram,52,Female,3,Agriculture,"Below Rs 10,000",Checked,80
+HIS0211131-197,Ramanadapuram,40,Female,3,Agriculture,"Below Rs 10,000",Checked,80
+HIS0211131-198,Ramanadapuram,50,Male,3,Agriculture,"Below Rs 10,000",Checked,90
+HIS0211131-199,Ramanadapuram,45,Male,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0211131-200,Ramanadapuram,60,Male,6,Agriculture,"Below Rs 10,000",Checked,80
+HIS0211131-201,Ramanadapuram,55,Male,2,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0211131-202,Ramanadapuram,51,Male,4,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0211131-203,Ramanadapuram,57,Female,1,Skilled labour,"Below Rs 10,000",Unchecked,83.33333333
+HIS0211131-204,Ramanadapuram,60,Male,2,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0211131-205,Ramanadapuram,51,Female,1,Unemployed,Did not provide,Unchecked,76.66666667
+HIS0211131-206,Ramanadapuram,70,Female,0,Skilled labour,"Below Rs 10,000",Unchecked,86.66666667
+HIS0211131-207,Ramanadapuram,70,Female,1,Unemployed,Did not provide,Checked,83.33333333
+HIS0205131-208,Ramanadapuram,70,Female,2,Agriculture,"Below Rs 10,000",Unchecked,86.66666667
+HIS0205131-209,Ramanadapuram,82,Male,0,Agriculture,"Below Rs 10,000",Checked,90
+HIS0205131-210,Ramanadapuram,37,Male,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0205131-211,Ramanadapuram,65,Male,1,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0205131-212,Ramanadapuram,70,Male,2,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0205131-213,Ramanadapuram,70,Male,3,Agriculture,"Below Rs 10,000",Unchecked,86.66666667
+HIS0205131-214,Ramanadapuram,40,Female,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0205131-215,Ramanadapuram,59,Male,1,Skilled labour,Did not provide,Unchecked,90
+HIS0205131-216,Ramanadapuram,70,Female,0,Unemployed,Did not provide,Unchecked,90
+HIS0205131-217,Ramanadapuram,50,Female,4,Agriculture,"Below Rs 10,000",Unchecked,83.33333333
+HIS0214131-218,Ramanadapuram,45,Female,3,Unskilled labour,"Below Rs 10,000",Checked,70
+HIS0214131-219,Ramanadapuram,55,Female,2,Unskilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0214131-220,Ramanadapuram,58,Male,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0214131-221,Ramanadapuram,46,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0214131-222,Ramanadapuram,70,Male,0,Unskilled labour,"Below Rs 10,000",Unchecked,90
+HIS0214131-223,Ramanadapuram,44,Male,2,Service/Salaried,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0214131-224,Ramanadapuram,40,Male,4,Unskilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0214131-225,Ramanadapuram,53,Female,2,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0214131-226,Ramanadapuram,45,Female,4,Agriculture,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0214131-227,Ramanadapuram,45,Male,2,Unskilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0214131-228,Ramanadapuram,80,Female,0,Unemployed,Did not provide,Unchecked,76.66666667
+HIS0214131-229,Ramanadapuram,70,Male,0,Unskilled labour,"Below Rs 10,000",Unchecked,90
+HIS0214131-230,Ramanadapuram,55,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0214131-231,Ramanadapuram,71,Male,0,Unskilled labour,"Below Rs 10,000",Unchecked,66.66666667
+HIS0214131-232,Ramanadapuram,57,Male,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0214131-233,Ramanadapuram,67,Male,0,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0214131-234,Ramanadapuram,60,Female,1,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0214131-235,Ramanadapuram,50,Female,1,Skilled labour,Did not provide,Checked,76.66666667
+HIS0214131-236,Ramanadapuram,65,Female,0,Unemployed,Did not provide,Checked,76.66666667
+HIS0214131-237,Ramanadapuram,40,Female,3,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0214131-238,Ramanadapuram,65,Male,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0214131-239,Ramanadapuram,41,Male,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0214131-240,Ramanadapuram,50,Female,3,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0214131-241,Ramanadapuram,32,Male,2,Skilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0214131-242,Ramanadapuram,60,Female,0,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0214131-243,Ramanadapuram,70,Female,1,Unemployed,Did not provide,Checked,86.66666667
+HIS0214131-244,Ramanadapuram,52,Male,2,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0214131-245,Ramanadapuram,63,Male,2,Agriculture,"Below Rs 10,000",Checked,73.33333333
+HIS0214131-246,Ramanadapuram,90,Female,0,Unemployed,Did not provide,Unchecked,63.33333333
+HIS0214131-247,Ramanadapuram,63,Male,1,Agriculture,"Below Rs 10,000",Checked,83.33333333
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0203131-258,Ramanadapuram,63,Female,4,Unskilled labour,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0203131-259,Ramanadapuram,78,Male,0,Unemployed,Did not provide,Unchecked,86.66666667
+HIS0203131-260,Ramanadapuram,60,Male,2,Unskilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0203131-261,Ramanadapuram,55,Male,4,Service/Salaried,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0203131-262,Ramanadapuram,50,Female,3,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,76.66666667
+HIS0203131-263,Ramanadapuram,45,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0203131-264,Ramanadapuram,65,Female,0,Skilled labour,"Below Rs 10,000",Unchecked,73.33333333
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0205131-283,Ramanadapuram,34,Female,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0205131-284,Ramanadapuram,52,Male,2,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0205131-285,Ramanadapuram,42,Female,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0205131-286,Ramanadapuram,65,Male,2,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0205131-287,Ramanadapuram,48,Female,3,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0205131-288,Ramanadapuram,65,Male,3,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0205131-289,Ramanadapuram,60,Male,2,Agriculture,"Below Rs 10,000",Checked,86.66666667
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0203131-302,Ramanadapuram,65,Male,2,Skilled labour,"Below Rs 10,000",Checked,90
+HIS0203131-303,Ramanadapuram,59,Male,3,Agriculture,"Below Rs 10,000",Checked,90
+HIS0203131-304,Ramanadapuram,70,Female,1,Skilled labour,"Below Rs 10,000",Checked,90
+HIS0203131-305,Ramanadapuram,64,Female,1,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0203131-306,Ramanadapuram,36,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,80
+HIS0203131-307,Ramanadapuram,85,Female,3,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0203131-308,Ramanadapuram,45,Male,2,Skilled labour,"Below Rs 10,000",Unchecked,83.33333333
+HIS0203131-309,Ramanadapuram,70,Female,0,Unemployed,Did not provide,Unchecked,90
+HIS0203131-310,Ramanadapuram,50,Female,1,Unemployed,Did not provide,Unchecked,83.33333333
+HIS0203131-311,Ramanadapuram,60,Female,1,Unemployed,Did not provide,Unchecked,90
+HIS0203131-312,Ramanadapuram,71,Male,0,Skilled labour,"Below Rs 10,000",Unchecked,86.66666667
+HIS0203131-313,Ramanadapuram,65,Female,2,Agriculture,"Below Rs 10,000",Unchecked,80
+HIS0203131-314,Ramanadapuram,48,Male,2,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0203131-315,Ramanadapuram,64,Female,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0203131-316,Ramanadapuram,52,Female,3,Unskilled labour,"Below Rs 10,000",Checked,73.33333333
+HIS0203131-317,Ramanadapuram,60,Female,1,Unskilled labour,"Below Rs 10,000",Checked,70
+HIS0203131-318,Ramanadapuram,35,Female,3,Skilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0203131-319,Ramanadapuram,60,Male,2,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0203131-320,Ramanadapuram,35,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0203131-321,Ramanadapuram,30,Male,3,Unemployed,Don't know,Unchecked,73.33333333
+HIS0203131-322,Ramanadapuram,34,Male,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,76.66666667
+HIS0203131-323,Ramanadapuram,38,Female,2,Agriculture,"Rs 10,000 - Rs 20,000",Unchecked,70
+HIS0203131-324,Ramanadapuram,44,Female,2,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0201131-325,Ramanadapuram,64,Female,2,Skilled labour,"Below Rs 10,000",Unchecked,86.66666667
+HIS0201131-326,Ramanadapuram,42,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,73.33333333
+HIS0201131-327,Ramanadapuram,38,Female,2,Unskilled labour,"Below Rs 10,000",Unchecked,73.33333333
+HIS0201131-328,Ramanadapuram,42,Female,3,Skilled labour,"Rs 10,000 - Rs 20,000",Checked,70
+HIS0201131-329,Ramanadapuram,52,Male,3,Service/Salaried,"Below Rs 10,000",Checked,83.33333333
+HIS0201131-330,Ramanadapuram,56,Male,2,Unskilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0201131-331,Ramanadapuram,50,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,73.33333333
+HIS0201131-332,Ramanadapuram,44,Male,3,Unskilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0201131-333,Ramanadapuram,57,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,86.66666667
+HIS0201131-334,Ramanadapuram,50,Female,3,Service/Salaried,"Below Rs 10,000",Unchecked,86.66666667
+HIS0201131-335,Ramanadapuram,52,Male,4,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0201131-336,Ramanadapuram,75,Female,0,Skilled labour,"Rs 10,000 - Rs 20,000",Unchecked,90
+HIS0201131-337,Ramanadapuram,65,Female,1,Unskilled labour,"Below Rs 10,000",Unchecked,76.66666667
+HIS0201131-338,Ramanadapuram,50,Female,3,Unskilled labour,"Below Rs 10,000",Unchecked,90
+HIS0201131-339,Ramanadapuram,85,Female,0,Unemployed,Did not provide,Unchecked,90
+HIS0201131-340,Ramanadapuram,61,Male,1,Unskilled labour,"Below Rs 10,000",Checked,90
+HIS0201131-341,Ramanadapuram,70,Female,0,Unskilled labour,"Below Rs 10,000",Unchecked,90
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0201131-349,Ramanadapuram,38,Female,2,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0201131-350,Ramanadapuram,52,Male,2,Skilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0201131-351,Ramanadapuram,38,Female,2,Agriculture,"Below Rs 10,000",Checked,70
+HIS0201131-352,Ramanadapuram,39,Male,2,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0201131-353,Ramanadapuram,70,Female,0,Unemployed,Did not provide,Checked,90
+HIS0201131-354,Ramanadapuram,60,Male,2,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0203131-370,Ramanadapuram,52,Male,2,Agriculture,"Below Rs 10,000",Checked,76.66666667
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0201131-380,Ramanadapuram,55,Male,2,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0201131-384,Ramanadapuram,73,Male,0,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+,,,,,,,,
+HIS0201131-386,Ramanadapuram,45,Male,2,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0201131-387,Ramanadapuram,45,Female,2,Agriculture,"Below Rs 10,000",Checked,80
+HIS0201131-388,Ramanadapuram,57,Male,3,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0201131-389,Ramanadapuram,35,Male,2,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+,,,,,,,,
+,,,,,,,,
+HIS0204131-392,Ramanadapuram,80,Male,0,Unemployed,Did not provide,Unchecked,70
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0203131-397,Ramanadapuram,61,Male,0,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0203131-398,Ramanadapuram,60,Male,2,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0203131-399,Ramanadapuram,70,Female,0,Skilled labour,"Below Rs 10,000",Checked,90
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0201131-406,Ramanadapuram,55,Male,2,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+HIS0203131-407,Ramanadapuram,80,Female,0,Unemployed,Did not provide,Unchecked,70
+HIS0203131-408,Ramanadapuram,50,Female,1,Skilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0203131-409,Ramanadapuram,70,Male,1,Skilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0201131-410,Ramanadapuram,73,Male,0,Skilled labour,"Below Rs 10,000",Checked,86.66666667
+,,,,,,,,
+HIS0201131-412,Ramanadapuram,45,Male,2,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0201131-413,Ramanadapuram,45,Female,2,Agriculture,"Below Rs 10,000",Checked,80
+HIS0201131-414,Ramanadapuram,57,Male,3,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0201131-415,Ramanadapuram,35,Male,2,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+,,,,,,,,
+,,,,,,,,
+HIS0204131-418,Ramanadapuram,80,Male,0,Unemployed,Did not provide,Unchecked,70
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0209131-428,Ramanadapuram,58,Male,2,Unskilled labour,"Below Rs 10,000",Checked,66.66666667
+HIS0209131-429,Ramanadapuram,34,Male,2,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0209131-430,Ramanadapuram,60,Female,1,Unskilled labour,"Below Rs 10,000",Unchecked,86.66666667
+HIS0209131-431,Ramanadapuram,62,Male,1,Unskilled labour,"Below Rs 10,000",Unchecked,86.66666667
+HIS0209131-432,Ramanadapuram,55,Male,2,Unskilled labour,"Below Rs 10,000",Checked,90
+HIS0209131-433,Ramanadapuram,57,Male,2,Unskilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0209131-434,Ramanadapuram,53,Male,2,Service/Salaried,"Below Rs 10,000",Checked,70
+HIS0209131-435,Ramanadapuram,31,Female,2,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0209131-436,Ramanadapuram,60,Male,2,Unskilled labour,"Below Rs 10,000",Unchecked,83.33333333
+HIS0209131-437,Ramanadapuram,50,Female,1,Unskilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0209131-438,Ramanadapuram,63,Male,3,Unemployed,"Below Rs 10,000",Checked,76.66666667
+HIS0209131-439,Ramanadapuram,55,Male,2,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0209131-440,Ramanadapuram,48,Male,3,Service/Salaried,"Below Rs 10,000",Checked,76.66666667
+HIS0209131-441,Ramanadapuram,65,Male,4,Unskilled labour,"Rs 10,000 - Rs 20,000",Unchecked,86.66666667
+HIS0209131-442,Ramanadapuram,40,Male,2,Service/Salaried,"Below Rs 10,000",Checked,73.33333333
+HIS0209131-443,Ramanadapuram,80,Female,0,Unemployed,Did not provide,Checked,83.33333333
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+HIS0209131-449,Ramanadapuram,70,Female,0,Unemployed,Did not provide,Checked,86.66666667
+HIS0209131-450,Ramanadapuram,70,Male,0,Skilled labour,"Below Rs 10,000",Checked,83.33333333
+HIS0209131-451,Ramanadapuram,62,Male,1,Agriculture,"Below Rs 10,000",Checked,80
+HIS0209131-452,Ramanadapuram,78,Male,4,Agriculture,"Below Rs 10,000",Checked,80
+HIS0209131-453,Ramanadapuram,54,Male,4,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0209131-454,Ramanadapuram,70,Male,0,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0209131-455,Ramanadapuram,52,Male,3,Agriculture,"Below Rs 10,000",Checked,83.33333333
+HIS0209131-456,Ramanadapuram,65,Male,4,Agriculture,"Below Rs 10,000",Unchecked,83.33333333
+HIS0209131-457,Ramanadapuram,57,Female,1,Agriculture,"Below Rs 10,000",Unchecked,80
+HIS0209131-458,Ramanadapuram,67,Female,0,Unemployed,Did not provide,Checked,73.33333333
+HIS0209131-459,Ramanadapuram,80,Female,0,Unemployed,Did not provide,Unchecked,70
+HIS0209131-460,Ramanadapuram,65,Male,1,Agriculture,"Below Rs 10,000",Checked,80
+HIS0209131-461,Ramanadapuram,50,Male,4,Agriculture,"Below Rs 10,000",Checked,86.66666667
+HIS0209131-462,Ramanadapuram,65,Male,2,Agriculture,"Below Rs 10,000",Unchecked,90
+HIS0209131-463,Ramanadapuram,60,Male,2,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0209131-464,Ramanadapuram,42,Female,3,Agriculture,"Below Rs 10,000",Checked,70
+HIS0209131-465,Ramanadapuram,40,Female,3,Skilled labour,"Below Rs 10,000",Unchecked,80
+HIS0209131-466,Ramanadapuram,42,Female,3,Skilled labour,"Below Rs 10,000",Checked,76.66666667
+HIS0203131-467,Ramanadapuram,39,Female,3,Skilled labour,"Below Rs 10,000",Checked,80
+HIS0203131-468,Ramanadapuram,65,Male,1,Agriculture,"Below Rs 10,000",Checked,76.66666667
+HIS0203131-469,Ramanadapuram,60,Female,0,Unemployed,Did not provide,Unchecked,76.66666667
+HIS0203131-470,Ramanadapuram,72,Female,0,Unemployed,Did not provide,Checked,90
+HIS0209131-471,Ramanadapuram,50,Female,1,Unemployed,Did not provide,Unchecked,83.33333333
