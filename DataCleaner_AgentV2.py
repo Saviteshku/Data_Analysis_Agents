@@ -6,11 +6,11 @@ import logging
 import openai
 import json
 import re
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 from dataclasses import dataclass
 from datetime import datetime
 
-# Set up logging with UTF-8 encoding to avoid UnicodeEncodeError
+# Set up logging with UTF-8 encoding
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -32,34 +32,15 @@ class ColumnAnalysis:
     recommendations: List[str]
 
 class DataCleaningError(Exception):
-    """Custom exception for data cleaning errors."""
     pass
 
-# Global helper function for numeric cleaning.
 def clean_numeric_column(column_data: pd.Series, outlier_action: str, missing_action: str) -> pd.Series:
-    """
-    Applies two independent steps for numeric columns.
-    
-    Step 1: Outlier Handling – based on the specified outlier_action.
-      - "remove_outliers_fill_NA": Mark outlier cells as NA then later fill them with literal "NA".
-      - "remove_outliers_set_missing": Mark outlier cells as missing (np.nan).
-      - "remove_outliers_impute_mean/median/mode": Replace outliers with mean/median/mode.
-      
-    Step 2: Missing Value Handling – fills only cells that were originally missing.
-      - "fill_NA": Fill with the literal string "NA" (convert column to object).
-      - "impute_mean"/"impute_median": Fill with computed statistic.
-      - "custom:xxx": Fill with custom value.
-      - "drop_rows": Drop rows with originally missing cells.
-      - "none": Do nothing.
-    """
     col = column_data.copy()
     orig_missing = col.isnull()
     lower_threshold = col.quantile(0.05)
     upper_threshold = col.quantile(0.95)
-    # Step 1: Outlier Handling
     if outlier_action == "remove_outliers_fill_NA":
         col = col.mask((col <= lower_threshold) | (col >= upper_threshold))
-        # Convert to object so we can assign literal "NA"
         col = col.astype(object)
         mask_outlier = ((column_data <= lower_threshold) | (column_data >= upper_threshold)) & (~orig_missing)
         col.loc[mask_outlier] = "NA"
@@ -77,11 +58,9 @@ def clean_numeric_column(column_data: pd.Series, outlier_action: str, missing_ac
         valid = col[(col > lower_threshold) & (col < upper_threshold)]
         impute_val = valid.mode().iloc[0] if not valid.mode().empty else np.nan
         col = col.mask((col <= lower_threshold) | (col >= upper_threshold), impute_val)
-    # Step 2: Missing Value Handling (fill only cells originally missing)
     if missing_action != "none":
         if missing_action == "fill_NA":
             fill_val = "NA"
-            # Ensure column is object so "NA" can be stored.
             col = col.astype(object)
         elif missing_action == "impute_mean":
             fill_val = col.mean(skipna=True)
@@ -101,6 +80,8 @@ def clean_numeric_column(column_data: pd.Series, outlier_action: str, missing_ac
         col.loc[orig_missing] = col.loc[orig_missing].fillna(fill_val)
     return col
 
+# ---------------- Base Agent and API ----------------
+
 class BaseAgent:
     def __init__(self, model_name: str = "o3-mini"):
         self.api_key = os.getenv("OPENAI_API_KEY")
@@ -118,11 +99,12 @@ class BaseAgent:
             )
             response_content = response.choices[0].message.content.strip()
             logger.info(f"Received response from OpenAI:\n{response_content}")
-            print("LLM Response:", response_content)
             return response_content
         except Exception as e:
             logger.error(f"OpenAI API call failed: {str(e)}")
             raise DataCleaningError(f"AI model error: {str(e)}")
+
+# ---------------- Data Loader ----------------
 
 class DataLoaderAgent(BaseAgent):
     def run(self, file_path: str) -> pd.DataFrame:
@@ -142,6 +124,8 @@ class DataLoaderAgent(BaseAgent):
         except Exception as e:
             logger.error(f"Error loading file {file_path}: {str(e)}")
             raise DataCleaningError(f"Data loading error: {str(e)}")
+
+# ---------------- Data Analyzer ----------------
 
 class DataAnalyzerAgent(BaseAgent):
     def _analyze_numeric_column(self, column_data: pd.Series) -> Dict:
@@ -168,7 +152,7 @@ class DataAnalyzerAgent(BaseAgent):
 
     def _analyze_categorical_column(self, column_data: pd.Series) -> Dict:
         return {
-            "value_counts": column_data.value_counts().head().to_dict(),
+            "value_counts": column_data.value_counts().to_dict(),
             "category_count": int(column_data.nunique()),
             "most_common": column_data.mode().iloc[0] if not column_data.empty else None
         }
@@ -179,6 +163,7 @@ class DataAnalyzerAgent(BaseAgent):
             sample = non_null.sample(min(5, len(non_null))).tolist() if not non_null.empty else []
             null_count = int(column_data.isnull().sum())
             unique_count = int(column_data.nunique())
+            total_available = int(column_data.count())
             try:
                 numeric_data = pd.to_numeric(column_data, errors='coerce')
                 if numeric_data.notnull().sum() >= 0.8 * len(column_data):
@@ -194,9 +179,11 @@ Column name: {column_data.name}
 Sample values: {sample}
 Null count: {null_count}
 Unique values: {unique_count}
+Total available count: {total_available}
 Data type: {column_data.dtype}
 Additional analysis: {specific_analysis}
-
+"""
+            prompt += """
 For continuous columns, include:
 - Mean, Median, Standard Deviation
 - Minimum, Maximum, and Range
@@ -209,7 +196,6 @@ RECOMMENDATIONS:
 - [List each cleaning step]
 """
             analysis_response = self._call_openai(prompt)
-            print("LLM Analysis Response:", analysis_response)
             issues = []
             recommendations = []
             current_section = None
@@ -236,117 +222,7 @@ RECOMMENDATIONS:
             logger.error(f"Error analyzing column {column_data.name}: {str(e)}")
             raise DataCleaningError(f"Analysis error: {str(e)}")
 
-class DataRemarkAgent(BaseAgent):
-    """
-    Interactively prompts the user for cleaning decisions on a column,
-    with options based on column type. Missing value prompt is shown only if there are originally missing values.
-    """
-    def __init__(self):
-        self.logger = logging.getLogger(__name__)
-    def run(self, analysis: ColumnAnalysis) -> Dict:
-        print(f"\n{'='*50}")
-        print(f"Reviewing Column: {analysis.column_name} (Type: {analysis.data_type})")
-        print(f"Null count: {analysis.null_count}")
-        print(f"Unique count: {analysis.unique_count}")
-        print(f"Sample values: {analysis.sample_values}")
-        print("\nIssues detected:")
-        for issue in analysis.issues:
-            print(f"- {issue}")
-        print("\nAutomated Cleaning Recommendations:")
-        for rec in analysis.recommendations:
-            print(f"- {rec}")
-
-        decisions = {}
-        dtype_lower = analysis.data_type.lower()
-        is_numeric = any(x in dtype_lower for x in ["int", "float", "numeric"])
-        if analysis.null_count > 0:
-            if is_numeric:
-                print("\n[Numeric Column] For missing values, choose an action:")
-                print("1. Fill missing values with NA")
-                print("2. Impute with mean")
-                print("3. Impute with median")
-                print("4. Drop rows with missing values")
-                print("5. Enter a custom numeric fill value")
-                print("6. Leave unchanged (keep as missing)")
-                choice = input("Enter choice (1-6): ").strip()
-                if choice == "1":
-                    decisions["missing_action"] = "fill_NA"
-                elif choice == "2":
-                    decisions["missing_action"] = "impute_mean"
-                elif choice == "3":
-                    decisions["missing_action"] = "impute_median"
-                elif choice == "4":
-                    decisions["missing_action"] = "drop_rows"
-                elif choice == "5":
-                    custom = input("Enter custom numeric value: ").strip()
-                    try:
-                        custom_val = float(custom)
-                        decisions["missing_action"] = f"custom:{custom_val}"
-                    except Exception:
-                        decisions["missing_action"] = "fill_NA"
-                elif choice == "6":
-                    decisions["missing_action"] = "none"
-                else:
-                    decisions["missing_action"] = "none"
-            else:
-                print("\n[Categorical Column] For missing values, choose an action:")
-                print("1. Fill missing values with NA (cells will show 'NA')")
-                print("2. Fill missing values with blank (cells will be empty)")
-                print("3. Impute with mode (most frequent value)")
-                print("4. Drop rows with missing values")
-                print("5. Enter a custom fill value")
-                print("6. Leave unchanged")
-                choice = input("Enter choice (1-6): ").strip()
-                if choice == "1":
-                    decisions["missing_action"] = "fill_NA"
-                elif choice == "2":
-                    decisions["missing_action"] = "fill_blank"
-                elif choice == "3":
-                    decisions["missing_action"] = "impute_mode"
-                elif choice == "4":
-                    decisions["missing_action"] = "drop_rows"
-                elif choice == "5":
-                    custom = input("Enter custom fill value: ").strip()
-                    decisions["missing_action"] = f"custom:{custom}"
-                elif choice == "6":
-                    decisions["missing_action"] = "none"
-                else:
-                    decisions["missing_action"] = "none"
-        else:
-            decisions["missing_action"] = "none"
-
-        if is_numeric and any("outlier" in issue.lower() for issue in analysis.issues):
-            print("\nFor outlier handling in numeric column, choose an action:")
-            print("1. Set outliers to NA")
-            print("2. Replace outliers with mean")
-            print("3. Replace outliers with median")
-            print("4. Replace outliers with mode")
-            print("5. Do nothing")
-            print("6. Set outliers to missing")
-            choice = input("Enter choice (1-6): ").strip()
-            if choice == "1":
-                decisions["outlier_action"] = "remove_outliers_fill_NA"
-            elif choice == "2":
-                decisions["outlier_action"] = "remove_outliers_impute_mean"
-            elif choice == "3":
-                decisions["outlier_action"] = "remove_outliers_impute_median"
-            elif choice == "4":
-                decisions["outlier_action"] = "remove_outliers_impute_mode"
-            elif choice == "5":
-                decisions["outlier_action"] = "none"
-            elif choice == "6":
-                decisions["outlier_action"] = "remove_outliers_set_missing"
-            else:
-                decisions["outlier_action"] = "none"
-        else:
-            decisions["outlier_action"] = "none"
-
-        logger.info(f"User decisions for column '{analysis.column_name}': {decisions}")
-        print(f"Decisions for column '{analysis.column_name}': {decisions}\n{'='*50}\n")
-        return decisions
-
-class DataRemarkAgentExtended(DataRemarkAgent):
-    pass
+# ---------------- Data Cleaner ----------------
 
 class DataCleanerAgent(BaseAgent):
     def _validate_cleaned_data(self, original: pd.Series, cleaned: pd.Series) -> bool:
@@ -367,8 +243,7 @@ Please provide corrected Python code that fixes the error. The code should:
 2. Use only pandas and numpy operations.
 3. Preserve the original data type when possible.
 4. Assume the input is a pandas Series named `column_data` and return the cleaned `column_data`.
-
-Return only executable Python code (no markdown formatting).
+Return only executable Python code.
 """
         corrected_code = self._call_openai(prompt)
         corrected_code = corrected_code.replace("```python", "").replace("```", "").strip()
@@ -426,7 +301,7 @@ Step 1: Outlier Handling
     - If outlier_action is 'remove_outliers_impute_mode', replace outliers with the mode of values within (lower_threshold, upper_threshold).
     - If outlier_action is 'none', do nothing.
 Step 2: Missing Value Handling
-    - Identify cells that were originally missing (preserve cells that became NA due to outlier handling).
+    - Identify cells that were originally missing.
     - If missing_action is 'fill_NA', fill those cells with the literal string "NA".
     - If missing_action is 'fill_blank', fill those cells with an empty string.
     - If missing_action is 'impute_mean', fill those cells with the mean of the column.
@@ -440,28 +315,22 @@ User decisions:
 Additional instructions:
     - Use only pandas and numpy operations.
     - Preserve the original data type when possible.
-    - Apply Step 1 and then Step 2 in sequence without overriding the outlier results.
+    - Apply Step 1 and then Step 2 in sequence.
 Assume that the input is a pandas Series named `column_data` and return the cleaned `column_data`.
-Return only executable Python code (no markdown formatting).
+Return only executable Python code.
 """
         cleaning_code = self._call_openai(cleaning_prompt)
-        print("LLM Cleaning Code:", cleaning_code)
         cleaning_code = cleaning_code.replace("```python", "").replace("```", "").strip()
         local_dict = {"column_data": column_data.copy()}
         cleaned_data = self._safe_exec(cleaning_code, local_dict)
         if self._validate_cleaned_data(column_data, cleaned_data):
             logger.info(f"Successfully cleaned column {column_data.name}")
-            logger.info(f"Original null count: {column_data.isnull().sum()}")
-            logger.info(f"Cleaned null count: {cleaned_data.isnull().sum()}")
-            logger.info(f"Original unique count: {column_data.nunique()}")
-            logger.info(f"Cleaned unique count: {cleaned_data.nunique()}")
             return cleaned_data
         return column_data
 
+# ---------------- Categorical Mapping Agent ----------------
+
 class CategoricalValueFixAgent(BaseAgent):
-    """
-    Uses commonsense reasoning via a language model to propose a mapping for normalizing categorical values.
-    """
     def consolidate_mapping(self, mapping: Dict[str, str]) -> Dict[str, str]:
         groups = {}
         for orig, norm in mapping.items():
@@ -504,7 +373,7 @@ class CategoricalValueFixAgent(BaseAgent):
                 column_data = column_data.cat.add_categories(["NA"])
         if column_data.isnull().sum() > 0:
             column_data = column_data.fillna("NA")
-        if not (pd.api.types.is_object_dtype(column_data) or isinstance(column_data.dtype, pd.CategoricalDtype)):
+        if not (isinstance(column_data.dtype, pd.CategoricalDtype) or pd.api.types.is_object_dtype(column_data)):
             return column_data
         unique_values = list(column_data.unique())
         prompt = (
@@ -514,8 +383,7 @@ class CategoricalValueFixAgent(BaseAgent):
             "Return only the JSON object."
         )
         try:
-            client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-            response = client.chat.completions.create(
+            response = self.client.chat.completions.create(
                 model=self.model_name,
                 messages=[{"role": "user", "content": prompt}]
             )
@@ -531,31 +399,179 @@ class CategoricalValueFixAgent(BaseAgent):
         print("\nAfter consolidating similar values, the mapping is:")
         for orig, norm in consolidated.items():
             print(f" - {orig} -> {norm}")
-        choice = input("Do you want to apply this mapping? (Y/n): ").strip().lower()
-        if choice in ["", "y", "yes"]:
+        choice = input("Do you want to apply this mapping? (Y to apply, N to enter a custom mapping, D to leave unchanged, B to go back to data type conversion): ").strip().lower()
+        if choice == 'b':
+            return "BACK"
+        elif choice in {"y", "yes"}:
             if isinstance(column_data.dtype, pd.CategoricalDtype):
                 column_data = column_data.astype(object)
-            return column_data.map(consolidated).fillna(column_data)
-        else:
+            mapped = column_data.map(consolidated)
+            result = mapped.where(~mapped.isna(), column_data)
+            return result
+        elif choice in {"d", "do nothing"}:
+            return column_data
+        elif choice in {"n", "no"}:
             new_mapping_str = input("Enter a custom mapping (e.g., F:Female; M:Male) or press Enter to leave unchanged: ").strip()
             if new_mapping_str:
                 new_mapping = self.parse_custom_mapping(new_mapping_str)
                 if new_mapping:
+                    final_mapping = consolidated.copy()
+                    final_mapping.update(new_mapping)
                     if isinstance(column_data.dtype, pd.CategoricalDtype):
                         column_data = column_data.astype(object)
-                    return column_data.map(new_mapping).fillna(column_data)
+                    mapped = column_data.map(final_mapping)
+                    result = mapped.where(~mapped.isna(), column_data)
+                    return result
+                else:
+                    print("No valid mapping found. Leaving column unchanged.")
+                    return column_data
+            else:
+                return column_data
+        else:
+            new_mapping_str = choice
+            if new_mapping_str:
+                new_mapping = self.parse_custom_mapping(new_mapping_str)
+                if new_mapping:
+                    final_mapping = consolidated.copy()
+                    final_mapping.update(new_mapping)
+                    if isinstance(column_data.dtype, pd.CategoricalDtype):
+                        column_data = column_data.astype(object)
+                    mapped = column_data.map(final_mapping)
+                    result = mapped.where(~mapped.isna(), column_data)
+                    return result
                 else:
                     print("No valid mapping found. Leaving column unchanged.")
                     return column_data
             else:
                 return column_data
 
+# ---------------- Decision Agent ----------------
+
+class RestartDecisionProcess(Exception):
+    pass
+
+class DataRemarkAgent(BaseAgent):
+    def __init__(self):
+        self.logger = logging.getLogger(__name__)
+    
+    def get_confirmed_decision(self, prompt: str, valid_options: List[str]) -> str:
+        decision = input(prompt).strip().lower()
+        if decision == 'b':
+            raise RestartDecisionProcess()
+        if decision not in valid_options:
+            print("Invalid input. Please try again.")
+            return self.get_confirmed_decision(prompt, valid_options)
+        confirm = input(f"You entered '{decision}'. Press 'Y' to confirm or 'B' to restart the entire decision process: ").strip().lower()
+        if confirm == 'b':
+            raise RestartDecisionProcess()
+        if confirm in ['y', 'yes', '']:
+            return decision
+        else:
+            raise RestartDecisionProcess()
+
+    def run(self, analysis: ColumnAnalysis) -> Dict:
+        print(f"\n{'='*50}")
+        print(f"Reviewing Column: {analysis.column_name} (Type: {analysis.data_type})")
+        print(f"Null count: {analysis.null_count}")
+        print(f"Unique count: {analysis.unique_count}")
+        print(f"Sample values: {analysis.sample_values}")
+        print("\nIssues detected:")
+        for issue in analysis.issues:
+            print(f"- {issue}")
+        print("\nAutomated Cleaning Recommendations:")
+        for rec in analysis.recommendations:
+            print(f"- {rec}")
+        
+        decisions = {}
+        dtype_lower = analysis.data_type.lower()
+        is_numeric = any(x in dtype_lower for x in ["int", "float", "numeric"])
+        
+        if analysis.null_count > 0:
+            if is_numeric:
+                prompt_missing = (
+                    "\n[Numeric Column] For missing values, choose an action:\n"
+                    "1. Fill missing values with NA\n"
+                    "2. Impute with mean\n"
+                    "3. Impute with median\n"
+                    "4. Drop rows with missing values\n"
+                    "5. Enter a custom numeric fill value\n"
+                    "6. Leave unchanged (keep as missing)\n"
+                    "Enter choice (1-6) or 'B' to restart: "
+                )
+                mapping_missing = {
+                    "1": "fill_NA",
+                    "2": "impute_mean",
+                    "3": "impute_median",
+                    "4": "drop_rows",
+                    "5": "custom",
+                    "6": "none"
+                }
+            else:
+                prompt_missing = (
+                    "\n[Categorical Column] For missing values, choose an action:\n"
+                    "1. Fill missing values with NA (cells will show 'NA')\n"
+                    "2. Fill missing values with blank (cells will be empty)\n"
+                    "3. Impute with mode (most frequent value)\n"
+                    "4. Drop rows with missing values\n"
+                    "5. Enter a custom fill value\n"
+                    "6. Leave unchanged\n"
+                    "Enter choice (1-6) or 'B' to restart: "
+                )
+                mapping_missing = {
+                    "1": "fill_NA",
+                    "2": "fill_blank",
+                    "3": "impute_mode",
+                    "4": "drop_rows",
+                    "5": "custom",
+                    "6": "none"
+                }
+            choice_missing = self.get_confirmed_decision(prompt_missing, ["1", "2", "3", "4", "5", "6"])
+            if mapping_missing[choice_missing] == "custom":
+                custom_value = input("Enter custom fill value: ").strip()
+                decisions["missing_action"] = f"custom:{custom_value}"
+            else:
+                decisions["missing_action"] = mapping_missing[choice_missing]
+        else:
+            decisions["missing_action"] = "none"
+        
+        if is_numeric and any("outlier" in issue.lower() for issue in analysis.issues):
+            prompt_outlier = (
+                "\nFor outlier handling in numeric column, choose an action:\n"
+                "1. Set outliers to NA\n"
+                "2. Replace outliers with mean\n"
+                "3. Replace outliers with median\n"
+                "4. Replace outliers with mode\n"
+                "5. Do nothing\n"
+                "6. Set outliers to missing\n"
+                "Enter choice (1-6) or 'B' to restart: "
+            )
+            mapping_outlier = {
+                "1": "remove_outliers_fill_NA",
+                "2": "remove_outliers_impute_mean",
+                "3": "remove_outliers_impute_median",
+                "4": "remove_outliers_impute_mode",
+                "5": "none",
+                "6": "remove_outliers_set_missing"
+            }
+            choice_outlier = self.get_confirmed_decision(prompt_outlier, ["1", "2", "3", "4", "5", "6"])
+            decisions["outlier_action"] = mapping_outlier[choice_outlier]
+        else:
+            decisions["outlier_action"] = "none"
+        
+        print(f"\nDecisions for column '{analysis.column_name}': {decisions}")
+        final_confirm = input("Press 'Y' to confirm these decisions or 'B' to restart the entire decision process: ").strip().lower()
+        if final_confirm == 'b':
+            raise RestartDecisionProcess()
+        return decisions
+
+# ---------------- Data Cleaning Coordinator with Export Option ----------------
+
 class DataCleaningCoordinator(BaseAgent):
     def __init__(self, model_name: str = "o3-mini"):
         super().__init__(model_name=model_name)
         self.loader = DataLoaderAgent(model_name=model_name)
         self.analyzer = DataAnalyzerAgent(model_name=model_name)
-        self.remarker = DataRemarkAgentExtended()
+        self.remarker = DataRemarkAgent()
         self.cleaner = DataCleanerAgent(model_name=model_name)
         self.cat_value_fix_agent = CategoricalValueFixAgent()
 
@@ -568,11 +584,11 @@ class DataCleaningCoordinator(BaseAgent):
         print("2. Integer")
         print("3. Categorical")
         print("4. Datetime")
-        print("5. Leave as is")
+        print("5. No Change")
         choice = input("Enter choice (1-5): ").strip()
         if choice == "1":
             converted = pd.to_numeric(col, errors='coerce')
-            problematic = col[(col.notna()) & (converted.isna())].unique()
+            problematic = [str(x).strip().lower() for x in col[(col.notna()) & (pd.to_numeric(col, errors='coerce').isna())].unique()]
             if len(problematic) > 0:
                 print(f"Column '{col_name}' has values that could not be converted to numeric: {problematic}")
                 replacement_map = {}
@@ -586,12 +602,13 @@ class DataCleaningCoordinator(BaseAgent):
                         except:
                             print(f"Invalid input, setting '{val}' as missing.")
                             replacement_map[val] = np.nan
-                col = col.replace(replacement_map)
+                replacement_map_lower = {k.lower(): v for k, v in replacement_map.items()}
+                col = col.apply(lambda x: replacement_map_lower.get(str(x).strip().lower(), x) if isinstance(x, str) else x)
                 converted = pd.to_numeric(col, errors='coerce')
             return converted.astype(float)
         elif choice == "2":
             converted = pd.to_numeric(col, errors='coerce')
-            problematic = col[(col.notna()) & (converted.isna())].unique()
+            problematic = [str(x).strip().lower() for x in col[(col.notna()) & (converted.isna())].unique()]
             if len(problematic) > 0:
                 print(f"Column '{col_name}' has values that could not be converted to integer: {problematic}")
                 replacement_map = {}
@@ -605,7 +622,8 @@ class DataCleaningCoordinator(BaseAgent):
                         except:
                             print(f"Invalid input, setting '{val}' as missing.")
                             replacement_map[val] = np.nan
-                col = col.replace(replacement_map)
+                replacement_map_lower = {k.lower(): v for k, v in replacement_map.items()}
+                col = col.apply(lambda x: replacement_map_lower.get(str(x).strip().lower(), x) if isinstance(x, str) else x)
                 converted = pd.to_numeric(col, errors='coerce')
             return converted.astype("Int64")
         elif choice == "3":
@@ -613,101 +631,337 @@ class DataCleaningCoordinator(BaseAgent):
         elif choice == "4":
             return pd.to_datetime(col, errors='coerce')
         elif choice == "5":
-            print(f"Leaving column '{col_name}' as is.")
+            print(f"Leaving column '{col_name}' no change.")
             return col
         else:
-            print("Invalid choice, leaving as is.")
+            print("Invalid choice, no change.")
             return col
 
+    def export_data(self, df: pd.DataFrame, cleaned_columns: Dict[str, pd.Series], output_file: str):
+        final_cols = {}
+        for col in df.columns:
+            if col in cleaned_columns:
+                final_cols[col] = cleaned_columns[col]
+            else:
+                final_cols[col] = df[col]
+        final_df = pd.DataFrame(final_cols)
+        cleaned_names = list(cleaned_columns.keys())
+        non_cleaned_names = [col for col in df.columns if col not in cleaned_columns]
+        message = (f"Exporting data...\nCleaned columns: {cleaned_names}\nNon-cleaned columns: {non_cleaned_names}")
+        print(message)
+        logger.info(message)
+        file_extension = os.path.splitext(output_file)[1].lower()
+        if file_extension == '.dta':
+            final_df.to_stata(output_file)
+        elif file_extension == '.csv':
+            final_df.to_csv(output_file, index=False)
+        elif file_extension == '.xlsx':
+            final_df.to_excel(output_file, index=False)
+        elif file_extension == '.parquet':
+            final_df.to_parquet(output_file)
+        print("Export completed.")
+        return final_df
+
     def run(self, input_file: str, output_file: str, columns: Optional[List[str]] = None) -> pd.DataFrame:
+        cleaned_columns = {}
         try:
             df = self.loader.run(input_file)
             all_missing = df.isnull().all(axis=1)
             if all_missing.sum() > 0:
-                print(f"\nThere are {all_missing.sum()} rows with all values missing.")
+                print(f"\nThere are {all_missing.sum()} rows with all missing values in columns.")
                 drop_choice = input("Do you want to drop these rows? (y/n): ").strip().lower()
                 if drop_choice == "y":
                     df = df.dropna(how='all')
                     print("Rows with all missing values have been dropped.")
-            cleaned_columns = {}
-            global_index = df.index
-            columns_to_clean = columns if columns is not None else list(df.columns)
-            for col_name in columns_to_clean:
-                print(f"\n{'='*50}\nProcessing column: {col_name}\n{'='*50}")
-                col_data = self.convert_column_dtype(df[col_name], col_name)
-                analysis = self.analyzer.run(col_data)
-                decisions = self.remarker.run(analysis)
-                logger.info(f"User decisions for column '{col_name}': {decisions}")
-                if pd.api.types.is_numeric_dtype(col_data):
-                    outlier_decision = decisions.get("outlier_action", "none")
-                    missing_decision = decisions.get("missing_action", "none")
-                    orig_missing = col_data.isnull()
-                    outlier_handled = clean_numeric_column(col_data, outlier_decision, "none")
-                    if outlier_decision == "remove_outliers_fill_NA":
-                        outlier_handled = outlier_handled.astype(object)
-                        lower = col_data.quantile(0.05)
-                        upper = col_data.quantile(0.95)
-                        mask_outlier = ((col_data <= lower) | (col_data >= upper)) & (~orig_missing)
-                        outlier_handled.loc[mask_outlier] = "NA"
-                    # Note: "remove_outliers_set_missing" leaves outlier cells as np.nan.
-                    if missing_decision != "none":
-                        filled = outlier_handled.copy()
-                        if missing_decision == "fill_NA":
-                            missing_fill = "NA"
-                            filled = filled.astype(object)
-                        elif missing_decision == "impute_mean":
-                            missing_fill = outlier_handled.mean(skipna=True)
-                        elif missing_decision == "impute_median":
-                            missing_fill = outlier_handled.median(skipna=True)
-                        elif missing_decision.startswith("custom:"):
-                            missing_fill = missing_decision.split("custom:")[1]
-                            try:
-                                missing_fill = float(missing_fill)
-                            except Exception:
-                                pass
-                        elif missing_decision == "drop_rows":
-                            filled = outlier_handled.loc[~orig_missing]
-                            outlier_handled = filled
-                        else:
-                            missing_fill = np.nan
-                        if missing_decision != "drop_rows":
-                            filled.loc[orig_missing] = filled.loc[orig_missing].fillna(missing_fill)
-                        cleaned_numeric = filled
+            identifier_cols = [col for col in df.columns if col.lower().endswith("id")]
+            if identifier_cols:
+                print("The following identifier columns will be skipped from cleaning but will be exported:", identifier_cols)
+                logger.info(f"Identifier columns to be skipped from cleaning: {identifier_cols}")
+            else:
+                print("No identifier columns (ending with 'id') were found.")
+                logger.info("No identifier columns were skipped.")
+            # Initial column selection
+            if columns is None:
+                while True:
+                    col_choice = input("Enter column names to clean (comma-separated) or press Enter to clean all columns: ").strip()
+                    if not col_choice:
+                        columns = list(df.columns)
+                        break
+                    chosen = [c.strip() for c in col_choice.split(",") if c.strip()]
+                    valid = [c for c in chosen if c in df.columns]
+                    invalid = [c for c in chosen if c not in df.columns]
+                    print(f"Valid columns entered: {valid}")
+                    if invalid:
+                        print(f"Columns not found: {invalid}")
+                        while True:
+                            option = input("Enter R to re-enter column names, V to proceed with valid columns, or A to proceed with all columns: ").strip().upper()
+                            if option in ["R", "V", "A"]:
+                                break
+                            else:
+                                print("Unrecognized option. Please enter R, V, or A.")
+                        if option == "R":
+                            continue
+                        elif option == "V":
+                            if valid:
+                                columns = valid
+                                break
+                            else:
+                                print("No valid columns entered. Please try again.")
+                                continue
+                        elif option == "A":
+                            columns = list(df.columns)
+                            break
                     else:
-                        cleaned_numeric = outlier_handled
-                    cleaned = cleaned_numeric
+                        columns = chosen
+                        break
+            print(f"Columns selected for cleaning: {columns}")
+            
+            processed = set()
+            # Process the initial selection.
+            for col_name in columns:
+                if col_name.lower().endswith("id"):
+                    logger.info(f"Skipping cleaning for column '{col_name}' (identifier column).")
+                    print(f"Skipping cleaning for column '{col_name}' (identifier column).")
+                    cleaned_columns[col_name] = df[col_name]
+                    processed.add(col_name)
                 else:
-                    if decisions["missing_action"] == "fill_NA":
-                        if isinstance(col_data.dtype, pd.CategoricalDtype):
-                            col_data = col_data.astype(object)
-                        col_data = col_data.fillna("NA")
-                    elif decisions["missing_action"] == "fill_blank":
-                        col_data = col_data.fillna("")
-                    elif decisions["missing_action"] == "impute_mode":
-                        mode_val = col_data.mode().iloc[0] if not col_data.mode().empty else None
-                        col_data = col_data.fillna(mode_val)
-                    elif decisions["missing_action"] == "drop_rows":
-                        col_data = col_data.dropna()
-                        global_index = global_index.intersection(col_data.index)
-                    elif decisions["missing_action"].startswith("custom:"):
-                        custom_val = decisions["missing_action"].split("custom:")[1]
-                        col_data = col_data.fillna(custom_val)
-                    cleaned = self.cat_value_fix_agent.run(col_data)
-                cleaned_columns[col_name] = cleaned
-
-            final_cleaned_df = pd.DataFrame({
-                col: series.reindex(global_index) for col, series in cleaned_columns.items()
-            })
-
-            file_extension = os.path.splitext(output_file)[1].lower()
-            if file_extension == '.dta':
-                final_cleaned_df.to_stata(output_file)
-            elif file_extension == '.csv':
-                final_cleaned_df.to_csv(output_file, index=False)
-            elif file_extension == '.xlsx':
-                final_cleaned_df.to_excel(output_file, index=False)
-            elif file_extension == '.parquet':
-                final_cleaned_df.to_parquet(output_file)
+                    while True:
+                        try:
+                            print(f"\n{'='*50}\nProcessing column: {col_name}\n{'='*50}")
+                            while True:
+                                col_data = self.convert_column_dtype(df[col_name], col_name)
+                                confirm_dtype = input(f"Are you satisfied with the datatype conversion for column '{col_name}'? (Y to confirm, B to re-enter): ").strip().lower()
+                                if confirm_dtype == 'b':
+                                    continue
+                                if confirm_dtype in ['y', 'yes', '']:
+                                    break
+                            analysis = self.analyzer.run(col_data)
+                            decisions = self.remarker.run(analysis)
+                            print(f"Decisions for column '{col_name}': {decisions}")
+                            final_confirm = input(f"Press 'Y' to final confirm these decisions for column '{col_name}', or 'B' to restart this column's processing: ").strip().lower()
+                            if final_confirm == 'b' or final_confirm not in ['y', 'yes', '']:
+                                raise RestartDecisionProcess()
+                            if not isinstance(decisions, dict):
+                                raise RestartDecisionProcess()
+                            if pd.api.types.is_numeric_dtype(col_data):
+                                outlier_decision = decisions.get("outlier_action", "none")
+                                missing_decision = decisions.get("missing_action", "none")
+                                orig_missing = col_data.isnull()
+                                outlier_handled = clean_numeric_column(col_data, outlier_decision, "none")
+                                if outlier_decision == "remove_outliers_fill_NA":
+                                    outlier_handled = outlier_handled.astype(object)
+                                    lower = col_data.quantile(0.05)
+                                    upper = col_data.quantile(0.95)
+                                    mask_outlier = ((col_data <= lower) | (col_data >= upper)) & (~orig_missing)
+                                    outlier_handled.loc[mask_outlier] = "NA"
+                                if missing_decision != "none":
+                                    filled = outlier_handled.copy()
+                                    if missing_decision == "fill_NA":
+                                        missing_fill = "NA"
+                                        filled = filled.astype(object)
+                                    elif missing_decision == "impute_mean":
+                                        missing_fill = outlier_handled.mean(skipna=True)
+                                    elif missing_decision == "impute_median":
+                                        missing_fill = outlier_handled.median(skipna=True)
+                                    elif missing_decision.startswith("custom:"):
+                                        missing_fill = missing_decision.split("custom:")[1]
+                                        try:
+                                            missing_fill = float(missing_fill)
+                                        except Exception:
+                                            pass
+                                    elif missing_decision == "drop_rows":
+                                        filled = outlier_handled.loc[~orig_missing]
+                                        outlier_handled = filled
+                                    else:
+                                        missing_fill = np.nan
+                                    if missing_decision != "drop_rows":
+                                        filled.loc[orig_missing] = filled.loc[orig_missing].fillna(missing_fill)
+                                    cleaned_numeric = filled
+                                else:
+                                    cleaned_numeric = outlier_handled
+                                cleaned = cleaned_numeric
+                            else:
+                                if decisions["missing_action"] == "fill_NA":
+                                    if isinstance(col_data.dtype, pd.CategoricalDtype):
+                                        col_data = col_data.cat.add_categories(["NA"])
+                                        col_data = col_data.fillna("NA")
+                                    else:
+                                        col_data = col_data.fillna("NA")
+                                elif decisions["missing_action"] == "fill_blank":
+                                    col_data = col_data.fillna("")
+                                elif decisions["missing_action"] == "impute_mode":
+                                    mode_val = col_data.mode().iloc[0] if not col_data.mode().empty else None
+                                    col_data = col_data.fillna(mode_val)
+                                elif decisions["missing_action"] == "drop_rows":
+                                    col_data = col_data.dropna()
+                                elif decisions["missing_action"].startswith("custom:"):
+                                    custom_val = decisions["missing_action"].split("custom:")[1]
+                                    if isinstance(col_data.dtype, pd.CategoricalDtype):
+                                        col_data = col_data.cat.add_categories([custom_val])
+                                    col_data = col_data.fillna(custom_val)
+                                mapping_result = self.cat_value_fix_agent.run(col_data)
+                                if isinstance(mapping_result, str) and mapping_result == "BACK":
+                                    raise RestartDecisionProcess()
+                                else:
+                                    cleaned = mapping_result
+                            break
+                        except RestartDecisionProcess:
+                            print(f"Restarting processing for column: {col_name}")
+                            continue
+                    logger.info(f"User decisions for column '{col_name}': {decisions}")
+                    cleaned_columns[col_name] = cleaned
+                    processed.add(col_name)
+            
+            # Outer loop for additional cleaning rounds
+            while True:
+                remaining = [col for col in df.columns if col not in processed]
+                if not remaining:
+                    print("No columns remaining to clean. Proceeding to export.")
+                    break
+                print(f"\nRemaining columns: {remaining}")
+                # Force valid option: C, A, or E.
+                while True:
+                    additional = input("Do you want to clean additional columns? (Type 'C' to specify columns, 'A' to clean all remaining, or 'E' to export cleaned data): ").strip().upper()
+                    if additional in ["C", "A", "E"]:
+                        break
+                    else:
+                        print("Invalid option. Please enter C, A, or E.")
+                if additional == "E":
+                    break
+                elif additional == "A":
+                    new_selection = remaining
+                    columns = new_selection
+                elif additional == "C":
+                    while True:
+                        col_choice = input("Enter column names to clean (comma-separated): ").strip()
+                        if not col_choice:
+                            print("No column names entered. Please enter at least one column.")
+                            continue
+                        chosen = [c.strip() for c in col_choice.split(",") if c.strip()]
+                        valid = [c for c in chosen if c in remaining]
+                        invalid = [c for c in chosen if c not in remaining]
+                        print(f"Valid columns: {valid}")
+                        if invalid:
+                            print(f"Columns not available: {invalid}")
+                            option = input("Enter R to re-enter, V to proceed with valid columns: ").strip().upper()
+                            if option == "R":
+                                continue
+                            elif option == "V":
+                                if valid:
+                                    new_selection = valid
+                                    break
+                                else:
+                                    print("No valid columns entered. Please try again.")
+                                    continue
+                        else:
+                            new_selection = chosen
+                            break
+                    if not new_selection:
+                        print("No additional valid columns selected. Proceeding to export.")
+                        break
+                    else:
+                        columns = new_selection
+                print(f"Columns selected for this additional round: {columns}")
+                for col_name in columns:
+                    if col_name.lower().endswith("id"):
+                        logger.info(f"Skipping cleaning for column '{col_name}' (identifier column).")
+                        print(f"Skipping cleaning for column '{col_name}' (identifier column).")
+                        cleaned_columns[col_name] = df[col_name]
+                        processed.add(col_name)
+                        continue
+                    while True:
+                        try:
+                            print(f"\n{'='*50}\nProcessing column: {col_name}\n{'='*50}")
+                            while True:
+                                col_data = self.convert_column_dtype(df[col_name], col_name)
+                                confirm_dtype = input(f"Are you satisfied with the datatype conversion for column '{col_name}'? (Y to confirm, B to re-enter): ").strip().lower()
+                                if confirm_dtype == 'b':
+                                    continue
+                                if confirm_dtype in ['y', 'yes', '']:
+                                    break
+                            analysis = self.analyzer.run(col_data)
+                            decisions = self.remarker.run(analysis)
+                            print(f"Decisions for column '{col_name}': {decisions}")
+                            final_confirm = input(f"Press 'Y' to final confirm these decisions for column '{col_name}', or 'B' to restart this column's processing: ").strip().lower()
+                            if final_confirm == 'b' or final_confirm not in ['y', 'yes', '']:
+                                raise RestartDecisionProcess()
+                            if not isinstance(decisions, dict):
+                                raise RestartDecisionProcess()
+                            if pd.api.types.is_numeric_dtype(col_data):
+                                outlier_decision = decisions.get("outlier_action", "none")
+                                missing_decision = decisions.get("missing_action", "none")
+                                orig_missing = col_data.isnull()
+                                outlier_handled = clean_numeric_column(col_data, outlier_decision, "none")
+                                if outlier_decision == "remove_outliers_fill_NA":
+                                    outlier_handled = outlier_handled.astype(object)
+                                    lower = col_data.quantile(0.05)
+                                    upper = col_data.quantile(0.95)
+                                    mask_outlier = ((col_data <= lower) | (col_data >= upper)) & (~orig_missing)
+                                    outlier_handled.loc[mask_outlier] = "NA"
+                                if missing_decision != "none":
+                                    filled = outlier_handled.copy()
+                                    if missing_decision == "fill_NA":
+                                        missing_fill = "NA"
+                                        filled = filled.astype(object)
+                                    elif missing_decision == "impute_mean":
+                                        missing_fill = outlier_handled.mean(skipna=True)
+                                    elif missing_decision == "impute_median":
+                                        missing_fill = outlier_handled.median(skipna=True)
+                                    elif missing_decision.startswith("custom:"):
+                                        missing_fill = missing_decision.split("custom:")[1]
+                                        try:
+                                            missing_fill = float(missing_fill)
+                                        except Exception:
+                                            pass
+                                    elif missing_decision == "drop_rows":
+                                        filled = outlier_handled.loc[~orig_missing]
+                                        outlier_handled = filled
+                                    else:
+                                        missing_fill = np.nan
+                                    if missing_decision != "drop_rows":
+                                        filled.loc[orig_missing] = filled.loc[orig_missing].fillna(missing_fill)
+                                    cleaned_numeric = filled
+                                else:
+                                    cleaned_numeric = outlier_handled
+                                cleaned = cleaned_numeric
+                            else:
+                                if decisions["missing_action"] == "fill_NA":
+                                    if isinstance(col_data.dtype, pd.CategoricalDtype):
+                                        col_data = col_data.cat.add_categories(["NA"])
+                                        col_data = col_data.fillna("NA")
+                                    else:
+                                        col_data = col_data.fillna("NA")
+                                elif decisions["missing_action"] == "fill_blank":
+                                    col_data = col_data.fillna("")
+                                elif decisions["missing_action"] == "impute_mode":
+                                    mode_val = col_data.mode().iloc[0] if not col_data.mode().empty else None
+                                    col_data = col_data.fillna(mode_val)
+                                elif decisions["missing_action"] == "drop_rows":
+                                    col_data = col_data.dropna()
+                                elif decisions["missing_action"].startswith("custom:"):
+                                    custom_val = decisions["missing_action"].split("custom:")[1]
+                                    if isinstance(col_data.dtype, pd.CategoricalDtype):
+                                        col_data = col_data.cat.add_categories([custom_val])
+                                    col_data = col_data.fillna(custom_val)
+                                mapping_result = self.cat_value_fix_agent.run(col_data)
+                                if isinstance(mapping_result, str) and mapping_result == "BACK":
+                                    raise RestartDecisionProcess()
+                                else:
+                                    cleaned = mapping_result
+                            break
+                        except RestartDecisionProcess:
+                            print(f"Restarting processing for column: {col_name}")
+                            continue
+                    logger.info(f"User decisions for column '{col_name}': {decisions}")
+                    cleaned_columns[col_name] = cleaned
+                    processed.add(col_name)
+                # End additional cleaning round; continue outer loop for export prompt.
+            # Ensure all columns are included
+            for col in df.columns:
+                if col not in cleaned_columns:
+                    cleaned_columns[col] = df[col]
+            final_cleaned_df = pd.DataFrame({col: series.reindex(df.index) for col, series in cleaned_columns.items()})
+            self.export_data(df, cleaned_columns, output_file)
             logger.info("\n=== Cleaning Process Summary ===")
             logger.info(f"Final number of rows: {len(final_cleaned_df)}")
             for col, series in cleaned_columns.items():
@@ -721,6 +975,8 @@ class DataCleaningCoordinator(BaseAgent):
             logger.error(f"Error in cleaning coordination: {str(e)}")
             raise DataCleaningError(f"Coordination error: {str(e)}")
 
+# ---------------- Extended Agents ----------------
+
 class DataRemarkAgentExtended(DataRemarkAgent):
     pass
 
@@ -728,6 +984,8 @@ class DataCleaningCoordinatorExtended(DataCleaningCoordinator):
     def __init__(self, model_name: str = "o3-mini"):
         super().__init__(model_name=model_name)
         self.remarker = DataRemarkAgentExtended()
+
+# ---------------- Main ----------------
 
 def main():
     coordinator = DataCleaningCoordinatorExtended()

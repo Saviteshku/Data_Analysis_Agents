@@ -1,5 +1,5 @@
 Version 1
-Date: 08/05/2024
+Date: 12/05/2024
 
 ## Retrieves the API key and initializes the OpenAI client.
 ## Sends a prompt to OpenAI and returns its response.
@@ -20,33 +20,20 @@ Date: 08/05/2024
 ## Orchestrates data loading, analysis, cleaning, and saving.
 ## Initiates the overall data cleaning workflow.
 ## USAGE GPT-4-Turbo
-
-Version 2
-Date: 20/09/2024
-
 ## Fixed the missing action and outlier action.
 ## Added extra options to missing action and outlier action.
 ## Updated per column wise cleaning instead of steps wise.
 ## Added custom input options.
 ## Used quantiles for outlier detection and removal and imputation.
 ## USAGE GPT-4o-mini
-
-Version 3
-Date 11/10/2024
-
 ## Added the loop back mechanism for verification at each action.
 ## The loop back will help to fix errors if typed or selected by mistake.
 ## USAGE GPT-4o-mini
-
-
-Version 4
-Date 12/12/2024
-
 ## Added option to "do nothing" to categorical mapping.
 ## Added option to auto skip "ID" columns
 ## USAGE GPT-4o-mini
 
-Version 5
+Version 2
 Date 12/02/2025
 
 
@@ -56,10 +43,10 @@ Date 12/02/2025
 ## USAGE GPT-o3-mini (reasoning model)
 
 
-Version 5
-Date 12/02/2025
+Version 3
+Date 24/02/2025
 
-## currently same as 5
+## Colour codes added to the outputs in console
 
 
 
