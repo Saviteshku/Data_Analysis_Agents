@@ -49,6 +49,11 @@ Date 24/02/2025
 ## Colour codes added to the outputs in console
 
 
+Version 4
+Date 25/02/2025
+
+## Added categorication function for individual columns in new columnss
+
 
 
 
